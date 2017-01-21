@@ -483,3 +483,107 @@ BLOG
   color: #fff;
   border: 1px solid #8272b3;
 }
+
+/****************************************
+
+    MEDIA QUERIES
+
+***************************************/
+/*Tablets*/
+@media screen and (max-width:800px){
+  
+  html.no-js{
+    width:inherit;
+    height:inherit;
+  }
+
+  div.main-wrapper.header{
+    width:inherit;
+  }
+  
+   div.main-wrapper.header img{
+    margin:0px 0px 0px 20px;
+  }
+
+  div.section-video-wrapper{
+    width:inherit;
+  }
+
+  div.wrapper.section-triple{
+    width:inherit;
+  }
+  
+  div.rockstars-wrapper.section-rockstars{
+    width:100%;
+    margin:0;
+  }
+
+  img#nelshern{
+    width:95%;
+    height:60%;
+  }
+  img#humberto{
+    width:95%;
+    height:60%;
+  }
+  img#rachelpautler{
+    width:95%;
+    height:60%;
+  }
+
+  img#tinachan{
+    width:95%;
+    height:60%;
+  }
+
+  div.rockstars-wrapper.section-rockstars span.box{
+    width:95%;
+    height:75%;
+    border:0;
+  }
+
+  /*div.heading-button{
+     //#8272b3;
+     //background-color:rgba(240, 248, 255, 0.59);
+     //color: #8272b3;
+  }
+  */
+
+  div.section-video-wrapper div.info{
+    margin:15px 118px 15px 100px; 
+  }
+
+  div.video {
+    margin: 0px 5px 0px 60px;
+  }
+
+  div.wrapper.section-triple{
+    margin:50px 20px 90px 20px;
+  }
+
+  div.wrapper.section-triple span{
+    margin:50px 20px 90px 20px;
+  }
+  div.wrapper.section-triple span.heading-button{
+    margin:0px 20px 0px 20px;
+  }
+
+  div.blog-wrapper.section-blog{
+    margin-top:95px;
+  }
+  
+
+}
+
+/*Phones*/
+@media screen and (max-width:400px){
+
+
+}
+
+/*Smaller Phones*/
+@media screen and (max-width:300px){
+
+
+
+}
