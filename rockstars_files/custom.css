@@ -463,3 +463,205 @@ BLOG
   color: #fff;
   border: 1px solid #8272b3;
 }
+
+/****************************************
+
+    MEDIA QUERIES
+
+***************************************/
+/*Tablets*/
+@media screen and (max-width:800px){
+  
+  /*index*/
+
+  html.no-js{
+    width:inherit;
+    height:inherit;
+  }
+
+  div.main-wrapper.header{
+    width:inherit;
+  }
+  
+   div.main-wrapper.header img{
+    margin:0px 0px 0px 20px;
+  }
+
+  div.section-video-wrapper{
+    width:inherit;
+  }
+
+  div.wrapper.section-triple{
+    width:inherit;
+  }
+  
+  div.rockstars-wrapper.section-rockstars{
+    width:100%;
+    margin:0;
+  }
+
+  img#nelshern{
+    width:95%;
+    height:60%;
+  }
+  img#humberto{
+    width:95%;
+    height:60%;
+  }
+  img#rachelpautler{
+    width:95%;
+    height:60%;
+  }
+
+  img#tinachan{
+    width:95%;
+    height:60%;
+  }
+
+  div.rockstars-wrapper.section-rockstars span.box{
+    width:95%;
+    height:75%;
+    border:0;
+  }
+
+  /*div.heading-button{
+     //#8272b3;
+     //background-color:rgba(240, 248, 255, 0.59);
+     //color: #8272b3;
+  }
+  */
+
+  div.section-video-wrapper div.info{
+    margin:15px 118px 15px 100px; 
+  }
+
+  div.video {
+    margin: 0px 5px 0px 60px;
+  }
+
+  div.wrapper.section-triple{
+    margin:50px 20px 90px 20px;
+  }
+
+  div.wrapper.section-triple span{
+    margin:50px 20px 90px 20px;
+  }
+  div.wrapper.section-triple span.heading-button{
+    margin:0px 20px 0px 20px;
+  }
+
+  div.blog-wrapper.section-blog{
+    margin-top:95px;
+  }
+
+  /*ourstory*/
+  div.main-banner {
+    width:inherit;
+    height:;
+    
+  }
+
+  div.main-banner-wrapper{
+    width:100%;
+    height:62%;
+  }
+
+  div.main-banner-wrapper img{
+    width:100%;
+    height:62%
+  }
+
+  div.main-banner-overlay{
+    width:99%;
+    height:62%;
+  }
+
+  div.section-video-wrapper div.info{
+   margin:0px 0px 70px 120px;
+  }
+
+  div.wrapper.section-triple span.quad:nth-child(5){
+    margin-left:255px;
+  }
+
+  div.wrapper.section-triple span.quad img{
+    margin-left:70px;
+  }
+
+  div.wrapper.section-triple span.quad h3{
+    text-align:center;
+  }
+
+  div.wrapper.section-triple span.quad p{
+    text-align:center;
+  }
+
+  div.wrapper.section-triple span.quad:nth-child(3) h3{
+    text-align:left;
+    margin-left:70px;
+  }
+
+  div.wrapper.section-triple span.quad:nth-child(4) img{
+    margin-left:75px;
+  }
+  
+  div.rockstars-wrapper.section-rockstars span{
+    margin:15px 50px 20px 0px;
+  }
+
+  div.rockstars-wrapper.section-rockstars span.heading-button{
+    margin-left:50px;
+  }
+
+  div.rockstars-wrapper.section-rockstars img{
+    width:225px;
+  }
+
+  /*rockstars*/
+   div.rockstars-wrapper.section-rockstars span.dspot{
+    display:inline-block;
+    margin:0px;
+    margin-bottom:0px;
+    width:120px;
+  }
+
+  div.rockstars-wrapper.section-rockstars span.dspot img{
+    display:inline-block;
+    margin:0px 0px 0px 0px;
+    width:120px;
+  }
+
+  div.rockstars-wrapper.section-rockstars h3 img{
+    width:inherit;
+  }
+
+  div.rockstars-wrapper.section-rockstars span{
+    width:200px;     
+  }
+  
+  div.rockstars-wrapper.section-rockstars img#tinachan{
+    width:225px;
+  }
+  
+  div.rockstars-wrapper.section-rockstars img#rachelpautler{
+    width:225px;
+  }
+
+  div.rockstars-wrapper.section-rockstars span.heading-button{
+    margin:inherit;
+  }
+
+}
+
+/*Phones*/
+@media screen and (max-width:400px){
+
+
+}
+
+/*Smaller Phones*/
+@media screen and (max-width:300px){
+
+
+
+}
