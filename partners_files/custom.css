@@ -357,6 +357,7 @@ PARTNER COMMUNITIES
   border: 1px solid #ccc;
   height: 60px;
   padding: 20px;
+
 }
 
 .section-rockstars .heading-button {
@@ -553,7 +554,6 @@ FORMS
   /*ourstory*/
   div.main-banner {
     width:inherit;
-    height:;
     
   }
 
@@ -564,7 +564,7 @@ FORMS
 
   div.main-banner-wrapper img{
     width:100%;
-    height:62%
+    height:96%
   }
 
   div.main-banner-overlay{
@@ -660,6 +660,26 @@ FORMS
   div.heading-button{
     background-color:rgba(255, 255, 255, 0.23);
   }
+
+  .main-banner{
+    height: 340px;
+    margin: 0 auto;
+  }
+
+  .main-banner-wrapper .inner-content {
+  position: relative;
+  top: 100%;
+  transform: translateY(-50%);
+  }
+
+  .section-video-wrapper img{
+    width:inherit;
+  }
+
+
+
+
+
   
   
 

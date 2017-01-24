@@ -347,7 +347,7 @@ ROCKSTARS
   width: 90%;
   margin: 0 auto;
   background-color: #fbfafa;
-  border: 1px solid #ccc;
+  border: 1px solid #b73636;
   height: 400px;
 }
 
@@ -543,8 +543,20 @@ BLOG
   /*ourstory*/
   div.main-banner {
     width:inherit;
-    height:;
+    height: 340px;
+    margin: 0 auto;
     
+  }
+  
+  .main-banner-wrapper .inner-content {
+  position: relative;
+  top: 90%;
+  transform: translateY(-50%);
+  }
+
+
+  .inner-content .headings{
+    padding-top:50px;
   }
 
   div.main-banner-wrapper{
@@ -554,7 +566,7 @@ BLOG
 
   div.main-banner-wrapper img{
     width:100%;
-    height:62%
+    height:96%
   }
 
   div.main-banner-overlay{
@@ -642,8 +654,6 @@ BLOG
     background-color:rgba(255, 255, 255, 0.23);
   }
   
-
-
 }
 
 /*Phones*/

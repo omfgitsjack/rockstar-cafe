@@ -473,6 +473,7 @@ BLOG
     width:inherit;
   }
   
+  
    div.main-wrapper.header img{
     margin:0px 0px 0px 20px;
   }
@@ -549,16 +550,36 @@ BLOG
     width:inherit;
     height:;
     
+  }  
+
+  .main-banner-wrapper {
+  height: 100%;
+  margin: 0 auto;
+  }
+
+  .main-banner-wrapper .inner-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+  .main-banner-overlay {
+  height: 100%;
+  margin: 0 auto;
+  }
+
+  .main-banner{
+  height: 350px;
+  margin: 0 auto;
   }
 
   div.main-banner-wrapper{
     width:100%;
-    height:62%;
   }
 
   div.main-banner-wrapper img{
     width:100%;
-    height:62%
+    height:96%
   }
 
   div.main-banner-overlay{

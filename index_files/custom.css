@@ -497,23 +497,51 @@ BLOG
     height:inherit;
   }
 
-  div.main-wrapper.header{
+  .headings{
+    padding-top:30px;
+  }
+
+  .sub-headings{
+    padding-top:25px;
+  }
+
+  .heading-button{
+    background-color:rgba(255, 255, 255, 0.23);
+  }
+
+  .main-wrapper.header{
     width:inherit;
   }
   
-   div.main-wrapper.header img{
+  .main-banner-wrapper {
+  height: 100%;
+  margin: 0 auto;
+  }
+
+  .main-banner-overlay {
+  height: 100%;
+  margin: 0 auto;
+  }
+
+  .main-banner{
+  height: 350px;
+  margin: 0 auto;
+  }
+
+
+   .main-wrapper.header img{
     margin:0px 0px 0px 20px;
   }
 
-  div.section-video-wrapper{
+  .section-video-wrapper{
     width:inherit;
   }
 
-  div.wrapper.section-triple{
+   .wrapper.section-triple{
     width:inherit;
   }
   
-  div.rockstars-wrapper.section-rockstars{
+   .rockstars-wrapper.section-rockstars{
     width:100%;
     margin:0;
   }
@@ -536,49 +564,56 @@ BLOG
     height:60%;
   }
 
-  div.rockstars-wrapper.section-rockstars span.box{
+   .rockstars-wrapper.section-rockstars span.box{
     width:95%;
     height:75%;
     border:0;
   }
 
-  /*div.heading-button{
+  /* .heading-button{
      //#8272b3;
      //background-color:rgba(240, 248, 255, 0.59);
      //color: #8272b3;
   }
   */
 
-  div.section-video-wrapper div.info{
+   .section-video-wrapper  .info{
     margin:15px 118px 15px 100px; 
   }
 
-  div.video {
+   .video {
     margin: 0px 5px 0px 60px;
   }
 
-  div.wrapper.section-triple{
+   .wrapper.section-triple{
     margin:50px 20px 90px 20px;
   }
 
-  div.wrapper.section-triple span{
+   .wrapper.section-triple span{
     margin:50px 20px 90px 20px;
   }
-  div.wrapper.section-triple span.heading-button{
+   .wrapper.section-triple span.heading-button{
     margin:0px 20px 0px 20px;
   }
 
-  div.blog-wrapper.section-blog{
+   .blog-wrapper.section-blog{
     margin-top:95px;
+  }
+
+  .blog-wrapper.section-blog img{
+    height:80%;
+  }
+
+  .blog-wrapper.section-blog span{
+    height:80%;
   }
   
 
 }
 
 /*Phones*/
-@media screen and (max-width:400px){
-
-
+@media screen and (max-width:450px){
+  
 }
 
 /*Smaller Phones*/
