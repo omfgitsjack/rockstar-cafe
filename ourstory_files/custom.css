@@ -552,6 +552,10 @@ BLOG
     
   }  
 
+  .main-banner-wrapper img{
+    object-fit:cover;
+  }
+
   .main-banner-wrapper {
   height: 100%;
   margin: 0 auto;

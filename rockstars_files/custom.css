@@ -638,6 +638,10 @@ BLOG
   margin: 0 auto;
   }
 
+  .main-banner-wrapper img{
+    object-fit:cover;
+  }
+
   .main-banner-overlay {
   height: 100%;
   margin: 0 auto;

@@ -653,6 +653,14 @@ BLOG
   div.heading-button{
     background-color:rgba(255, 255, 255, 0.23);
   }
+
+  .main-banner-wrapper img{
+    object-fit:cover;
+  }
+
+  .video img{
+    object-fit:cover;
+  }
   
 }
 

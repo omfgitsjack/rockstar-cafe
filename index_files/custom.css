@@ -497,6 +497,10 @@ BLOG
     height:inherit;
   }
 
+  .main-banner-wrapper img{
+    object-fit:cover;
+  }
+  
   .headings{
     padding-top:30px;
   }
@@ -601,7 +605,7 @@ BLOG
   }
 
   .blog-wrapper.section-blog img{
-    height:80%;
+    object-fit:cover;
   }
 
   .blog-wrapper.section-blog span{

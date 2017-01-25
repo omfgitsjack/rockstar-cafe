@@ -673,7 +673,15 @@ FORMS
   }
 
   .section-video-wrapper img{
-    width:inherit;
+    object-fit:cover;
+  }
+
+   .section-video-wrapper{
+     margin-left:-20px;
+   }
+
+  .main-banner-wrapper img{
+    object-fit:cover;
   }
 
 
