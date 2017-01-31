@@ -7,20 +7,16 @@
 <!-- Import Boostrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<link href="./index_files/css" rel="stylesheet" type="text/css">
-<!--*<link href="./index_files/css(1)" rel="stylesheet" type="text/css">-->
+<link href="./css/fonts.css" rel="stylesheet" type="text/css">
     
 <!--main.css-->
-<link rel="stylesheet" href="./main.css" type="text/css">
+<link rel="stylesheet" href="./css/main.css" type="text/css">
     
 <!--Custom.css-->
-<link rel="stylesheet" href="./index_files/custom.css">
+<link rel="stylesheet" href="./css/index.css">
 
 <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png">
 <title>Rockstar Café</title>
@@ -29,14 +25,13 @@
 <!-- BEGIN -->
 
 <body>
-<div class="main-wrapper header">
- <a href="index.html"><img class="logo" src="images/logo.png" width="80px"></a>
- <a href="index.html"><img class="replacementlogo" ></a>
+<div class="mobilemenuwrapper">
     <header>
-    <div class="main-wrapper header nav bar">
+    <div class="mobile-navbar">
         <nav>
-            <a class="menubar"></a>
+                <a class="menubar"><img src="images/rockstarbanner2.png"></a>
                 <ul>
+                    <li><a class="fake" href="index.html"><span>Home</span></a></li>
                     <li><a class="fake" href="ourstory.html"><span>Our Story</span></a></li>
                     <li><a class="fake" href="rockstars.html"><span>Rockstars</span></a></li>
                     <li><a class="fake" href="mentors.html"><span>Mentors</span></a></li>
@@ -47,7 +42,9 @@
         </nav>
     </div>
 </header>
-    
+</div>
+<div class="main-wrapper header">
+ <a href="index.html"><img class="logo" src="images/logo.png" width="80px"></a>
     <span class="nav">    
     <a class="fake" href="ourstory.html"><span>Our Story</span></a>
     <a class="fake" href="rockstars.html"><span>Rockstars</span></a>
@@ -176,4 +173,7 @@
   </div>
   
 
-</body></html>
+</body>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="navbar.js"></script>
+</html>

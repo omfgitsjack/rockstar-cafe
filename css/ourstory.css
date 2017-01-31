@@ -1,0 +1,189 @@
+/****************************************
+
+GLOBAL
+
+****************************************/
+/****************************************
+
+VARIABLES
+
+****************************************/
+/****************************************
+
+NAV
+
+****************************************/
+/****************************************
+
+MAIN
+
+****************************************/
+/****************************************
+
+TRIPLE
+
+****************************************/
+/****************************************
+
+VIDEO
+
+****************************************/
+/****************************************
+
+Full width video
+
+****************************************/
+/****************************************
+
+ROCKSTARS
+
+****************************************/
+/****************************************
+
+BLOG
+
+****************************************/
+/****************************************
+
+    MEDIA QUERIES
+
+***************************************/
+/*Tablets*/
+@media screen and (max-width:800px){
+/**Global******************************/
+    html.no-js{
+    width:inherit;
+    height:inherit;
+  }
+/**Variables***************************/
+/**Nav...******************************/
+/**Main********************************/
+    .main-wrapper.header{
+    width:inherit;
+  }
+    .main-wrapper.header img{
+    margin:0px 0px 0px 20px;
+  }
+     .main-banner {
+    width:inherit;
+    height:;
+    
+  } 
+    .main-banner-wrapper img{
+    object-fit:cover;
+  }
+
+  .main-banner-wrapper {
+  height: 100%;
+  margin: 0 auto;
+  }
+
+  .main-banner-wrapper .inner-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+  .main-banner-overlay {
+  height: 100%;
+  margin: 0 auto;
+  }
+
+  .main-banner{
+  height: 350px;
+  margin: 0 auto;
+  }
+
+   .main-banner-wrapper{
+    width:100%;
+  }
+
+   .main-banner-wrapper img{
+    width:100%;
+    height:96%
+  }
+
+   .main-banner-overlay{
+    width:99%;
+    height:62%;
+  }
+/**Triple******************************/
+    .wrapper.section-triple{
+    width:inherit;
+  }
+     .wrapper.section-triple{
+    margin:50px 20px 90px 20px;
+  }
+     .wrapper.section-triple span{
+    margin:50px 20px 90px 20px;
+  }    
+     .wrapper.section-triple span.heading-button{
+    margin:0px 20px 0px 20px;
+  }
+     .wrapper.section-triple span.quad:nth-child(5){
+    margin-left:255px;
+  }
+
+   .wrapper.section-triple span.quad img{
+    margin-left:70px;
+  }
+
+   .wrapper.section-triple span.quad h3{
+    text-align:center;
+  }
+
+   .wrapper.section-triple span.quad p{
+    text-align:center;
+  }
+
+   .wrapper.section-triple span.quad:nth-child(3) h3{
+    text-align:left;
+    margin-left:70px;
+  }
+
+   .wrapper.section-triple span.quad:nth-child(4) img{
+    margin-left:75px;
+  }
+/**Video*******************************/
+    .section-video-wrapper{
+    width:inherit;
+  }
+     .section-video-wrapper  .info{
+    margin:15px 118px 15px 100px; 
+  }
+     .video {
+    margin: 0px 5px 0px 60px;
+  }
+      .section-video-wrapper  .info{
+   margin:0px 0px 70px 120px;
+  }
+
+/**Rockstars***************************/
+    .rockstars-wrapper.section-rockstars{
+    width:100%;
+    margin:0;
+  }
+    .rockstars-wrapper.section-rockstars span.box{
+    width:95%;
+    height:75%;
+    border:0;
+  }
+/**Blog********************************/ 
+   .blog-wrapper.section-blog{
+    margin-top:95px;
+  }
+
+}
+
+/*Phones*/
+@media screen and (max-width:400px){
+
+
+}
+
+/*Smaller Phones*/
+@media screen and (max-width:300px){
+
+
+
+}
