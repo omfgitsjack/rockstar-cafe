@@ -56,6 +56,10 @@ div {
 VARIABLES
 
 ****************************************/
+.main-wrapper.header.nav.bar nav{
+    visibility:hidden;
+    height:0;
+}
 /****************************************
 
 NAV
@@ -470,11 +474,87 @@ BLOG
 /*Large Phones*/
 @media screen and (max-width: 450px) {
     /**Global******************************/
+    html.no-js{
+        width:205%;
+    }
     /**Variables***************************/
+    .logo {
+    position: absolute;
+    top: 15%;
+
+    }
+    .main-wrapper.header.nav.bar nav{
+    visibility:visible;
+    height:100%;
+}
     /**Nav...******************************/
+    .main-wrapper.header .menubar{
+        display: block;
+        height: 50px;
+        width: 100%;
+        background: url(./images/menubar2.png) no-repeat 98% center;
+        cursor: pointer;  
+
+    }
+
+    .main-wrapper.header.nav.bar nav ul li a.fake span{
+        margin: 0px 10px 0px 0px;
+        padding: 15px 15px 15px 15px;
+        background-color:#8272b3;
+
+    }
+
+    .main-wrapper.header.nav.bar nav ul li {
+        height:0px;
+        margin:50px 10px 10px 20px;
+
+
+    }
+
+    .main-wrapper.header.nav.bar nav ul li a span.button{
+        height:0px;
+        margin:50px 10px 10px 20px;
+
+    }
+
+    .main-wrapper.header.nav.bar nav ul{
+        list-style-type: none;
+        margin-bottom:0px;
+        margin-right:0;
+        padding:0;
+        width:100%;
+        text-align:right;        
+        transform: translateY(+5%);
+
+    }
+
+    .main-wrapper.header.nav.bar nav a.menubar{
+        list-style-type: none;
+        margin:15px 0px 10px 0px;
+        padding:0;
+        position: absolute;
+        top: 7%;
+        transform: translateY(-120%);
+
+
+    }
+
+    .main-wrapper.header.nav.bar nav {
+        margin:0px 0px 0px 0px;
+        padding:0;
+        transform: translateY(-5%);
+        
+    }
+
+    .main-wrapper.header span.nav{
+        visibility:hidden;
+    }
+
+
     /**Main********************************/
     .main-wrapper.header {
         width: inherit;
+        height:400px;
     }
     .main-wrapper.header span {
         font-size:x-large;
