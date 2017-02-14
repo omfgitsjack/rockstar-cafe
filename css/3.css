@@ -3,8 +3,8 @@
 GLOBAL
 
 ****************************************/
-html.no-js {
-    width:100%;
+html {
+    width:126.54%;
 }
 /****************************************
 
@@ -41,16 +41,6 @@ Full width video
 ROCKSTARS
 
 ****************************************/
-.section-rockstars span.dspot {
-    display: inline-block;
-    width: 150px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    vertical-align: top;
-    height: 400px;
-}
-
 /****************************************
 
 BLOG
@@ -81,30 +71,11 @@ BLOG
 
     .main-banner {
         width: inherit;
-    }
-
-    .inner-content .headings {
-        padding-top: 50px;
-    }
-
-    .heading-button {
-        background-color: rgba(255, 255, 255, 0.23);
-        font-size:medium;
-    }
-
-    .main-banner-wrapper {
-        width: 100%;
-        height: 62%;
+        height: ;
     }
 
     .main-banner-wrapper img {
-        width: 100%;
-        height: 96%
-    }
-
-    .main-banner-overlay {
-        width: 99%;
-        height: 62%;
+        object-fit: cover;
     }
 
     .main-banner-wrapper {
@@ -112,8 +83,10 @@ BLOG
         margin: 0 auto;
     }
 
-    .main-banner-wrapper img {
-        object-fit: cover;
+    .main-banner-wrapper .inner-content {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .main-banner-overlay {
@@ -126,10 +99,18 @@ BLOG
         margin: 0 auto;
     }
 
-    .main-banner-wrapper .inner-content {
-        position: relative;
-        top: 85%;
-        transform: translateY(-90%);
+    .main-banner-wrapper {
+        width: 100%;
+    }
+
+    .main-banner-wrapper img {
+        width: 100%;
+        height: 96%
+    }
+
+    .main-banner-overlay {
+        width: 99%;
+        height: 62%;
     }
 
     /**Triple******************************/
@@ -138,7 +119,7 @@ BLOG
     }
 
     .wrapper.section-triple {
-        margin: 50px 20px 90px 20px;
+        margin: 50px 20px 30px 20px;
     }
 
     .wrapper.section-triple span {
@@ -151,6 +132,7 @@ BLOG
 
     .wrapper.section-triple span.quad:nth-child(5) {
         margin-left: 255px;
+        margin-top: 60px;
     }
 
     .wrapper.section-triple span.quad img {
@@ -174,6 +156,10 @@ BLOG
         margin-left: 75px;
     }
 
+    .wrapper.section-triple p {
+        font-size: medium;
+    }
+
     /**Video*******************************/
     .section-video-wrapper {
         width: inherit;
@@ -189,7 +175,7 @@ BLOG
 
     .section-video-wrapper .info {
         margin: 0px 0px 50px 120px;
-        height:inherit
+        height:inherit;
     }
 
     .section-video-wrapper .info p {
@@ -203,68 +189,37 @@ BLOG
     /**Rockstars***************************/
     .rockstars-wrapper.section-rockstars {
         width: 100%;
-        margin: 0;
-    }
-
-    .rockstars-wrapper.section-rockstars span.box {
-        width: 95%;
-        height: 75%;
-        border: 0;
-    }
-
-    .rockstars-wrapper.section-rockstars span {
-        margin: 15px 50px 20px 0px;
-    }
-
-    .rockstars-wrapper.section-rockstars span.heading-button {
-        margin-left: 50px;
-    }
-
-    .rockstars-wrapper.section-rockstars img {
-        width: 225px;
-    }
-
-    .rockstars-wrapper.section-rockstars:nth-child(5) {
-        padding-left: 19px;
-        width: inherit;
-        height: inherit;
-    }
-
-    .rockstars-wrapper.section-rockstars span.dspot {
-        display: inline-block;
-        margin: 0px;
-        margin-bottom: 0px;
-        width: 120px;
-    }
-
-    .rockstars-wrapper.section-rockstars span.dspot img {
-        display: inline-block;
-        margin: 0px 0px 0px 0px;
-        width: 120px;
-    }
-
-    .rockstars-wrapper.section-rockstars h3 img {
-        width: inherit;
-    }
-
-    .rockstars-wrapper.section-rockstars span {
-        width: 200px;
+        margin-top: auto;
     }
 
     .rockstars-wrapper.section-rockstars p {
         font-size: medium;
     }
 
+    .rockstars-wrapper.section-rockstars span img {
+        object-fit: cover;
+        width: 95%;
+        height: 75%;
+        border: 0;
+    }
+
+    .rockstars-wrapper.section-rockstars span {
+        width: 30%;
+    }
+
+    .rockstars-wrapper.section-rockstars span.box {
+        width: 94%;
+    }
+
     .rockstars-wrapper.section-rockstars span.heading-button{
-        font-size: medium;
+        font-size:medium;
     }
 
     /**Blog********************************/
     .blog-wrapper.section-blog {
         margin-top: 95px;
+        width: inherit;
     }
-
-    /*rockstars*/
 }
 
 /*Phones*/

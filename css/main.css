@@ -61,6 +61,11 @@ VARIABLES
     height: 0;
 }
 
+div.mobile-navbar{
+        visibility:collapse;
+        height:0;
+    }
+
 /****************************************
 
 NAV
@@ -455,10 +460,14 @@ BLOG
 }
 
 /*Tablets*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 769px) {
     /**Global******************************/
     /**Variables***************************/ 
-    /**Nav...******************************/ 
+    /**Nav...******************************/
+    div.mobile-navbar{
+        visibility:collapse;
+        height:0;
+    }
     /**Main********************************/ 
     .main-wrapper.header {
         width: inherit;
@@ -468,6 +477,15 @@ BLOG
         font-size: medium;
     }
 
+    .heading-button {
+        background-color: rgba(255, 255, 255, 0.23);
+        font-size:medium;
+    }
+
+    .sub-headings{
+        padding-top:5px;
+    }
+
     /**Triple******************************/
     /**Video*******************************/
     /**Rockstars***************************/
@@ -475,16 +493,19 @@ BLOG
 }
 
 /*Large Phones*/
-@media screen and (max-width: 450px) {
-    /**Global******************************/ 
-    html.no-js {
-        width:205%;
+@media screen and (max-width: 427px) {
+    /**Global******************************/
+    html.no-js{
+        width:180.6%;
     }
-
     /**Variables***************************/
     .logo{
         background-color:aqua;
         visibility:hidden;
+    }
+    div.mobile-navbar{
+        visibility:visible;
+        height:auto;
     }
 
     /**Nav...******************************/
@@ -522,7 +543,7 @@ BLOG
         padding:0px 0px;
         width:inherit;
         cursor:pointer;
-        width:100.2%;
+        width:100%;
     }
 
     .mobile-navbar nav a.menubar img{
@@ -547,6 +568,9 @@ BLOG
 
     /**Triple******************************/
     /**Video*******************************/
+    .section-video-wrapper .info .heading-button {
+        width: 500px;
+    }
     /**Rockstars***************************/
     /**Blog********************************/
 }

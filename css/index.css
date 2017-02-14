@@ -3,6 +3,9 @@
 GLOBAL
 
 ****************************************/
+html {
+    width:100%;
+}
 /****************************************
 
 VARIABLES
@@ -54,6 +57,7 @@ TRIPLE
 .section-triple {
     margin-left: 35px;
     margin-bottom: 200px;
+    text-align:center;
 }
 
 .section-triple span {
@@ -148,7 +152,7 @@ BLOG
 
 ***************************************/
 /*Tablets*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 769px) {
     /**Global******************************/ 
     /**Variables***************************/
     /**Nav...******************************/
@@ -295,7 +299,7 @@ BLOG
 }
 
 /*Phones*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 427px) {
     /**Global******************************/
     html{
         width:180.8%;
@@ -303,9 +307,115 @@ BLOG
     /**Variables***************************/
     /**Nav...******************************/
     /**Main********************************/
+
+
+    .inner-content .heading-button{
+        display:block; 
+        width:inherit;
+        transform:translateY(-100%);
+        font-size:large;
+
+    }
+
+    .sub-headings{
+        font-size:x-large;
+    }
     /**Triple******************************/
+    .wrapper.section-triple {
+        width: inherit;
+        margin-bottom: 80px;
+        margin-left:0;
+        text-align:center;
+    }
+
+    .wrapper.section-triple span {
+        display:block;
+        width:inherit;
+        margin-bottom:auto;
+        height:auto;
+        margin:auto
+        text-align: center;
+        
+    }
+    
+    .wrapper.section-triple span p{
+        font-size:medium;
+        line-height:150%;
+        text-align: center;
+        font-size:x-large;
+    }
+
+    .wrapper.section-triple span h3{
+        font-size:medium;
+        line-height:150%;
+        text-align: center;
+        font-size:50px;
+    }
+
+    .wrapper.section-triple span.heading-button {
+        font-size:25px;
+        margin-left:130px;
+        width:400px;
+
+    }
+
+    .wrapper.section-triple span:nth-child(5) {
+        margin-left: 15px;
+        text-align: center;
+    }
+    
     /**Video*******************************/
+    .section-video-wrapper .info{
+        width:inherit;
+        margin:auto;
+        height:auto;
+        text-align:center;
+    }
+    
+    .section-video-wrapper .info .heading-button{
+        font-size:25px;
+    }
+    .section-video-wrapper .info p{
+        font-size:x-large;
+        line-height:inherit;
+    }
+
+    .section-video-wrapper .info h3{
+        font-size:xx-large;
+        line-height:inherit;
+    }
+
     /**Rockstars***************************/
+    .rockstars-wrapper.section-rockstars {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    img#nelshern {
+        object-fit:cover;
+        width: 100%;
+    }
+
+    img#humberto {
+        object-fit:cover;
+        width: 100%;
+    }
+
+    img#rachelpautler {
+        object-fit:cover;
+        width: 100%;
+    }
+
+    img#tinachan {
+        object-fit:cover;
+        width: 100%;
+    }
+    
+    .rockstars-wrapper.section-rockstars span{
+        
+    }
+    
     /**Blog********************************/
 }
 
