@@ -3,7 +3,14 @@
 GLOBAL
 
 ****************************************/
-
+.hero-image {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
 /****************************************
 
 NAV
@@ -40,31 +47,33 @@ BLOG
 
 ****************************************/
 
-/*Tablets*/
-@media screen and (max-width:) {
-    /**Global******************************/
-    /**Variables***************************/ 
-    /**Nav...******************************/
-    /**Main********************************/
-    /**Triple******************************/
-    /**Video*******************************/
-    /**Rockstars***************************/
-    /**Blog********************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+	.hero-image {
+		height: 250px;
+	}
 }
 
-/*Large Phones*/
-@media screen and (max-width:) {
-    /**Global******************************/
-    /**Variables***************************/
-    /**Nav...******************************/
-    /**Main********************************/
-    /**Triple******************************/
-    /**Video*******************************/
-    /**Rockstars***************************/
-    /**Blog********************************/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+	.hero-image {
+		height: 300px;
+	}
 }
 
-/*Smaller Phones*/
-@media screen and (max-width:) {
-    /**Global******************************/ /**Variables***************************/ /**Nav...******************************/ /**Main********************************/ /**Triple******************************/ /**Video*******************************/ /**Rockstars***************************/ /**Blog********************************/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.hero-image {
+		height: 400px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
