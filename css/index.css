@@ -4,10 +4,10 @@ GLOBAL
 
 ****************************************/
 .hero-image {
-	background-position: top center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 500px;
+	height: 600px;
 	width: 100%;
 	position: relative;
 }
