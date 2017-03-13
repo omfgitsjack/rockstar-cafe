@@ -159,19 +159,24 @@ BLOG
 
 /**Video*******************************/
 .section-video-wrapper {
-    width: inherit;
+    max-width: 85%;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .section-video-wrapper .info {
-    margin: 15px 118px 15px 100px;
 }
 
 .video {
-    margin: 0px 5px 0px 60px;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
 }
 
 .section-video-wrapper .info {
-    margin: 0px 0px 50px 120px;
     height:inherit;
 }
 
@@ -216,14 +221,4 @@ BLOG
 .blog-wrapper.section-blog {
     margin-top: 95px;
     width: inherit;
-}
-        margin: 0px 20px 0px 20px;
-
-
-/*Phones*/
-@media screen and (max-width: 400px) {
-}
-
-/*Smaller Phones*/
-@media screen and (max-width: 300px) {
 }
