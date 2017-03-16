@@ -176,7 +176,9 @@ BLOG
 
     /**Video*******************************/
     .section-video-wrapper {
-        width: inherit;
+        max-width: 85%;
+        display: block;
+        margin: 0 auto;
     }
 
     .section-video-wrapper .info {
