@@ -1,71 +1,16 @@
-/****************************************
-
-GLOBAL
-
-****************************************/
-.hero-image {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 600px;
-	width: 100%;
-	position: relative;
-}
-/****************************************
-
-NAV
-
-****************************************/
-
-/****************************************
-
-MAIN
-
-****************************************/
-
-/****************************************
-
-TRIPLE
-
-****************************************/
-
-/****************************************
-
-VIDEO
-
-****************************************/
-
-/****************************************
-
-ROCKSTARS
-
-****************************************/
-
-/****************************************
-
-BLOG
-
-****************************************/
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-	.hero-image {
-		height: 250px;
-	}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-	.hero-image {
-		height: 300px;
-	}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-	.hero-image {
-		height: 400px;
-	}
+
 }
 
 /* Large devices (desktops, 992px and up) */
