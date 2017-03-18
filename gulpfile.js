@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var autoprefixer = require('gulp-autoprefixer');
 var rename = require("gulp-rename");
 
 // Constants
@@ -26,6 +27,10 @@ gulp.task('images', function() {
 gulp.task('sass', function() {
     gulp.src('./style/*')
         .pipe(sass())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest(BUILD_ROOT_PATH + 'css/'))
         .pipe(browserSync.stream());
 });
