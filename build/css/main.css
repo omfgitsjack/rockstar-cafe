@@ -1,0 +1,50 @@
+.btns-below-hero {
+  margin: 10 auto; }
+
+.hero-btn {
+  border: 1px solid transparent;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: #a39ec0;
+  color: #a39ec0;
+  background-color: transparent;
+  padding: 10px 12px; }
+
+.hero-btn:hover {
+  color: #9b94c7;
+  border-color: #9b94c7;
+  text-decoration: none; }
+
+.hero-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  text-align: center; }
+
+.inner-content {
+  color: white;
+  text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  /*text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);*/
+  /*text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);*/ }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .hero-image {
+    height: 250px; } }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .hero-image {
+    height: 300px; } }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-image {
+    height: 400px; } }
+
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
