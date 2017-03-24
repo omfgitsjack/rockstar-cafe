@@ -3,13 +3,12 @@
   padding-bottom: 15px; }
 
 .news-img {
+  filter: grayscale(100%);
   -ms-flex: 1 2 200px;
   flex: 1 2 200px;
   max-width: 200px; }
-  .news-img img {
-    filter: grayscale(100%) !important; }
-    .news-img img:hover {
-      filter: grayscale(0%); }
+  .news-img:hover {
+    filter: grayscale(0%); }
 
 .value {
   -ms-flex: 1 2 200px;

@@ -5,9 +5,10 @@
 
  .news-img {
     filter: grayscale(100%);
-    :hover {
+    &:hover {
         filter: grayscale(0%);
     }
+    margin: 0 auto;
     flex: 1 2 200px;
     max-width: 200px;
  }
