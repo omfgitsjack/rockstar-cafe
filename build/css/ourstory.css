@@ -1,11 +1,24 @@
 .section {
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .news-img {
-  filter: grayscale(100%);
-  width: 200px;
-}
-.news-img:hover {
-  filter: grayscale(0%);
-}
+  filter: grayscale(100%); }
+  .news-img:hover {
+    filter: grayscale(0%); }
+
+.value {
+  -ms-flex: 1 2 200px;
+  flex: 1 2 200px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 300px;
+  padding: 20px 15px; }
+
+.value-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0 auto; }
