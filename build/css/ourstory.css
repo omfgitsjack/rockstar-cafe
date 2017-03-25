@@ -1,9 +1,6 @@
-.section {
-  margin-top: 15px;
-  padding-bottom: 15px; }
-
 .news-img {
   filter: grayscale(100%);
+  margin: 0 auto;
   -ms-flex: 1 2 200px;
   flex: 1 2 200px;
   max-width: 200px; }
@@ -26,3 +23,10 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto; }
+
+.values-container .value h3 {
+  margin-top: 20px; }
+
+.values-container .value h5 {
+  font-size: 1.15rem;
+  line-height: 1.6rem; }
