@@ -30,7 +30,3 @@
 .values-container .value h5 {
   font-size: 1.15rem;
   line-height: 1.6rem; }
-
-.profile-card {
-  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
-  border-radius: 2px; }

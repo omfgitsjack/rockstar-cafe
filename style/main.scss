@@ -7,6 +7,18 @@ body {
 	margin: 10 auto;
 }
 
+.hero-cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: true;
+
+	.hero-btn {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
 .hero-btn {
 	border: 1px solid transparent;
 	border-width: 2px;
@@ -49,6 +61,7 @@ body {
 	h1 {
 		margin-bottom: 1.3rem;
 		font-weight: bold;
+		font-size: 33px;
 	}
 
 	p {
@@ -62,7 +75,7 @@ body {
 
 	.section-subtitle {
 		max-width: 800px;
-		margin-top: -0.6rem;
+		margin-top: -0.7rem;
 		font-family: "Noto Sans";
 	}
 
@@ -177,4 +190,9 @@ $primary-color:	#5a518e;
 	img {
 		width: 100%;
 	}
+}
+
+.profile-card {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    border-radius: 2px;
 }

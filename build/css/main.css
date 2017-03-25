@@ -5,6 +5,19 @@ body {
 .btns-below-hero {
   margin: 10 auto; }
 
+.hero-cta {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: true;
+  flex-wrap: true; }
+  .hero-cta .hero-btn {
+    margin-left: 5px;
+    margin-right: 5px; }
+
 .hero-btn {
   border: 1px solid transparent;
   border-width: 2px;
@@ -41,7 +54,8 @@ body {
   color: rgba(0, 0, 0, 0.8); }
   .section h1 {
     margin-bottom: 1.3rem;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 33px; }
   .section p {
     font-size: 20px;
     font-family: "Noto Serif";
@@ -51,7 +65,7 @@ body {
     margin-bottom: 2rem; }
   .section .section-subtitle {
     max-width: 800px;
-    margin-top: -0.6rem;
+    margin-top: -0.7rem;
     font-family: "Noto Sans"; }
   .section .section-subtitle.full-length {
     max-width: 100%; }
@@ -130,3 +144,7 @@ body {
   margin-bottom: 30px; }
   .single-image img {
     width: 100%; }
+
+.profile-card {
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  border-radius: 2px; }
