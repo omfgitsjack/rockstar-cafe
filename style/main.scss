@@ -158,3 +158,23 @@ $primary-color:	#5a518e;
 .join-wrapper {
     margin-top: 30px;
 }
+
+.side-image {
+    margin-bottom: 0;
+
+    @media (max-width: 991px) {
+        margin-bottom: 40px;
+    }
+}
+
+.single-image {
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+	img {
+		width: 100%;
+	}
+}
