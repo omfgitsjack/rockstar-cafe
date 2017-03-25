@@ -53,9 +53,40 @@ body {
     max-width: 800px;
     margin-top: -0.6rem;
     font-family: "Noto Sans"; }
+  .section .section-subtitle.full-length {
+    max-width: 100%; }
 
 .section.gray {
   background-color: #f4f4f4; }
+
+.section.call-out {
+  background-color: #2b3137;
+  color: white;
+  background-image: linear-gradient(180deg, #24292e, #2b3137);
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .section.call-out .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .section.call-out .container .call-out-text {
+      margin-bottom: 0; }
+
+.primary-color {
+  color: #5a518e; }
+
+.btn {
+  font-family: "Noto Sans", sans-serif; }
+
+.btn-primary {
+  background-color: #5a518e;
+  border-color: #5a518e; }
+
+.btn-primary:hover {
+  background-color: #50487e; }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {

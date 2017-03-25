@@ -30,3 +30,13 @@
 .values-container .value h5 {
   font-size: 1.15rem;
   line-height: 1.6rem; }
+
+.tedx-video {
+  margin-bottom: 0; }
+  @media (max-width: 991px) {
+    .tedx-video {
+      margin-bottom: 40px; } }
+
+.profile-card {
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  border-radius: 2px; }

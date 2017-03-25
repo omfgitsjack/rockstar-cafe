@@ -65,10 +65,51 @@ body {
 		margin-top: -0.6rem;
 		font-family: "Noto Sans";
 	}
+
+	.section-subtitle.full-length {
+		max-width: 100%
+	}
 }
 
 .section.gray {
 	background-color: #f4f4f4;
+}
+
+.section.call-out {
+	background-color: #2b3137;
+	color: white;
+	background-image: linear-gradient(180deg, #24292e, #2b3137);
+	padding-top: 30px;
+    padding-bottom: 30px;
+
+	.container {
+		.call-out-text {
+			margin-bottom: 0;
+		}
+		
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+$primary-color:	#5a518e;
+.primary-color {
+	color: $primary-color;
+}
+
+// Bootstrap buttons
+.btn {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.btn-primary {
+	background-color: $primary-color;
+	border-color: $primary-color;
+}
+
+.btn-primary:hover {
+	background-color: darken($primary-color, 5%);
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
