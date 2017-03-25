@@ -105,3 +105,13 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .show-xl {
+    display: block; } }
+
+@media (max-width: 1200px) {
+  .hide-xl {
+    display: block; } }
+
+.join-wrapper {
+  margin-top: 30px; }

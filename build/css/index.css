@@ -3,14 +3,3 @@
 /* Medium devices (tablets, 768px and up) */
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
-.show-xl {
-  display: block; }
-  @media (max-width: 1200px) {
-    .show-xl {
-      display: none; } }
-
-.hide-xl {
-  display: none; }
-  @media (max-width: 1200px) {
-    .hide-xl {
-      display: block; } }

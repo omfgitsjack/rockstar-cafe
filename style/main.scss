@@ -142,3 +142,19 @@ $primary-color:	#5a518e;
 @media (min-width: 1200px) {
 
 }
+
+.show-xl {
+    @media (max-width: 1200px) {
+        display: block;
+    }
+}
+
+.hide-xl {
+    @media (max-width: 1200px) {
+        display: block;
+    }
+}
+
+.join-wrapper {
+    margin-top: 30px;
+}
