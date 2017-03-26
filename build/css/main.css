@@ -2,6 +2,10 @@ body {
   font-family: 'Noto Serif', serif;
   font-family: 'Noto Sans', sans-serif; }
 
+@media (max-width: 575px) {
+  h3 {
+    font-size: 1.5rem; } }
+
 .btns-below-hero {
   margin: 10 auto; }
 
@@ -12,11 +16,10 @@ body {
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-wrap: true;
-  flex-wrap: true; }
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .hero-cta .hero-btn {
-    margin-left: 5px;
-    margin-right: 5px; }
+    margin: 7.5px; }
 
 .hero-btn {
   border: 1px solid transparent;
@@ -39,7 +42,20 @@ body {
   height: 600px;
   width: 100%;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  /* Small devices (landscape phones, 576px and up) */
+  /* Medium devices (tablets, 768px and up) */ }
+  @media (max-width: 575px) {
+    .hero-image {
+      height: 100vh;
+      margin-top: -50px;
+      z-index: -1; } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .hero-image {
+      height: 300px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hero-image {
+      height: 400px; } }
 
 .inner-content {
   color: white;
@@ -87,7 +103,8 @@ body {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     .section.call-out .container .call-out-text {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-right: 25px; }
 
 .primary-color {
   color: #5a518e; }
@@ -102,30 +119,17 @@ body {
 .btn-primary:hover {
   background-color: #50487e; }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-  .hero-image {
-    height: 250px; } }
+.show-xl {
+  display: block; }
+  @media (max-width: 1200px) {
+    .show-xl {
+      display: none; } }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-  .hero-image {
-    height: 300px; } }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-  .hero-image {
-    height: 400px; } }
-
-/* Large devices (desktops, 992px and up) */
-/* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-  .show-xl {
-    display: block; } }
-
-@media (max-width: 1200px) {
-  .hide-xl {
-    display: block; } }
+.hide-xl {
+  display: none; }
+  @media (max-width: 1200px) {
+    .hide-xl {
+      display: block; } }
 
 .join-wrapper {
   margin-top: 30px; }
@@ -148,3 +152,12 @@ body {
 .profile-card {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
   border-radius: 2px; }
+
+.rs-nav {
+  background-color: #24292e; }
+
+.rs-nav-link {
+  color: rgba(255, 255, 255, 0.75) !important; }
+
+.rs-nav-link.active {
+  color: #796cc6 !important; }

@@ -12,9 +12,11 @@
   -ms-flex-pack: center;
   justify-content: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: -20px; }
   .partner-list .partner {
     -ms-flex: 0 0 300px;
     flex: 0 0 300px;
-    margin-left: 20px;
-    margin-right: 20px; }
+    margin: 20px; }

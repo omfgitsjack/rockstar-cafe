@@ -14,10 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
 
     .partner {
         flex: 0 0 300px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 20px;
     }
 }

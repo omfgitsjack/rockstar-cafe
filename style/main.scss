@@ -1,6 +1,13 @@
+
 body {
 	font-family: 'Noto Serif', serif;
 	font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+	@media (max-width: 575px) {
+		font-size: 1.5rem;
+	}
 }
 
 .btns-below-hero {
@@ -11,11 +18,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: true;
+	flex-wrap: wrap;
 
 	.hero-btn {
-		margin-left: 5px;
-		margin-right: 5px;
+		margin: 7.5px
 	}
 }
 
@@ -43,6 +49,30 @@ body {
 	width: 100%;
 	position: relative;
 	text-align: center;
+
+	// 100vh config
+	// height: 100vh;
+	// margin-top: -50px;
+	// z-index: -1;
+
+	@media (max-width: 575px) {
+		// height: 250px;
+
+		// Special treatment.
+		height: 100vh;
+		margin-top: -50px;
+		z-index: -1;
+	}
+
+	/* Small devices (landscape phones, 576px and up) */
+	@media (min-width: 576px) and (max-width: 767px) {
+			height: 300px;
+	}
+
+	/* Medium devices (tablets, 768px and up) */
+	@media (min-width: 768px) and (max-width: 991px) {
+			height: 400px;
+	}
 }
 
 .inner-content {
@@ -98,6 +128,7 @@ body {
 	.container {
 		.call-out-text {
 			margin-bottom: 0;
+			margin-right: 25px;
 		}
 		
 		display: flex;
@@ -125,44 +156,17 @@ $primary-color:	#5a518e;
 	background-color: darken($primary-color, 5%);
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-	.hero-image {
-		height: 250px;
-	}
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-	.hero-image {
-		height: 300px;
-	}
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-	.hero-image {
-		height: 400px;
-	}
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
-	
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
 .show-xl {
-    @media (max-width: 1200px) {
-        display: block;
+    display: block;
+	
+	@media (max-width: 1200px) {
+        display: none;
     }
 }
 
 .hide-xl {
+	display: none;
+
     @media (max-width: 1200px) {
         display: block;
     }
@@ -195,4 +199,17 @@ $primary-color:	#5a518e;
 .profile-card {
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
     border-radius: 2px;
+}
+
+// nav
+.rs-nav {
+	background-color: #24292e;
+}
+
+.rs-nav-link {
+	color: rgba(255,255,255,0.75) !important;
+}
+
+.rs-nav-link.active {
+	color: rgb(121, 108, 198) !important;
 }
