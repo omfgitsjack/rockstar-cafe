@@ -1,5 +1,25 @@
+body {
+  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Sans', sans-serif; }
+
+@media (max-width: 575px) {
+  h3 {
+    font-size: 1.5rem; } }
+
 .btns-below-hero {
   margin: 10 auto; }
+
+.hero-cta {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .hero-cta .hero-btn {
+    margin: 7.5px; }
 
 .hero-btn {
   border: 1px solid transparent;
@@ -22,7 +42,20 @@
   height: 600px;
   width: 100%;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  /* Small devices (landscape phones, 576px and up) */
+  /* Medium devices (tablets, 768px and up) */ }
+  @media (max-width: 575px) {
+    .hero-image {
+      height: 100vh;
+      margin-top: -50px;
+      z-index: -1; } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .hero-image {
+      height: 300px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hero-image {
+      height: 400px; } }
 
 .inner-content {
   color: white;
@@ -31,20 +64,100 @@
   /*text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);*/
   /*text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);*/ }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-  .hero-image {
-    height: 250px; } }
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: rgba(0, 0, 0, 0.8); }
+  .section h1 {
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+    font-size: 33px; }
+  .section p {
+    font-size: 20px;
+    font-family: "Noto Serif";
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    word-spacing: .05rem;
+    margin-bottom: 2rem; }
+  .section .section-subtitle {
+    max-width: 800px;
+    margin-top: -0.7rem;
+    font-family: "Noto Sans"; }
+  .section .section-subtitle.full-length {
+    max-width: 100%; }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-  .hero-image {
-    height: 300px; } }
+.section.gray {
+  background-color: #f4f4f4; }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-  .hero-image {
-    height: 400px; } }
+.section.call-out {
+  background-color: #2b3137;
+  color: white;
+  background-image: linear-gradient(180deg, #24292e, #2b3137);
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .section.call-out .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .section.call-out .container .call-out-text {
+      margin-bottom: 0;
+      margin-right: 25px; }
 
-/* Large devices (desktops, 992px and up) */
-/* Extra large devices (large desktops, 1200px and up) */
+.primary-color {
+  color: #5a518e; }
+
+.btn {
+  font-family: "Noto Sans", sans-serif; }
+
+.btn-primary {
+  background-color: #5a518e;
+  border-color: #5a518e; }
+
+.btn-primary:hover {
+  background-color: #50487e; }
+
+.show-xl {
+  display: block; }
+  @media (max-width: 1200px) {
+    .show-xl {
+      display: none; } }
+
+.hide-xl {
+  display: none; }
+  @media (max-width: 1200px) {
+    .hide-xl {
+      display: block; } }
+
+.join-wrapper {
+  margin-top: 30px; }
+
+.side-image {
+  margin-bottom: 0; }
+  @media (max-width: 991px) {
+    .side-image {
+      margin-bottom: 40px; } }
+
+.single-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+  .single-image img {
+    width: 100%; }
+
+.profile-card {
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  border-radius: 2px; }
+
+.rs-nav {
+  background-color: #24292e; }
+
+.rs-nav-link {
+  color: rgba(255, 255, 255, 0.75) !important; }
+
+.rs-nav-link.active {
+  color: #796cc6 !important; }

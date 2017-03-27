@@ -1,5 +1,28 @@
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+	@media (max-width: 575px) {
+		font-size: 1.5rem;
+	}
+}
+
 .btns-below-hero {
 	margin: 10 auto;
+}
+
+.hero-cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	.hero-btn {
+		margin: 7.5px
+	}
 }
 
 .hero-btn {
@@ -26,6 +49,30 @@
 	width: 100%;
 	position: relative;
 	text-align: center;
+
+	// 100vh config
+	// height: 100vh;
+	// margin-top: -50px;
+	// z-index: -1;
+
+	@media (max-width: 575px) {
+		// height: 250px;
+
+		// Special treatment.
+		height: 100vh;
+		margin-top: -50px;
+		z-index: -1;
+	}
+
+	/* Small devices (landscape phones, 576px and up) */
+	@media (min-width: 576px) and (max-width: 767px) {
+			height: 300px;
+	}
+
+	/* Medium devices (tablets, 768px and up) */
+	@media (min-width: 768px) and (max-width: 991px) {
+			height: 400px;
+	}
 }
 
 .inner-content {
@@ -35,34 +82,134 @@
 	/*text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);*/
 	/*text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);*/
 }
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-	.hero-image {
-		height: 250px;
+	color: rgba(0,0,0,.8);
+
+	h1 {
+		margin-bottom: 1.3rem;
+		font-weight: bold;
+		font-size: 33px;
+	}
+
+	p {
+		font-size: 20px;
+		font-family: "Noto Serif";
+		line-height: 2rem;
+		letter-spacing: -0.2px;
+		word-spacing: .05rem;
+		margin-bottom: 2rem;
+	}
+
+	.section-subtitle {
+		max-width: 800px;
+		margin-top: -0.7rem;
+		font-family: "Noto Sans";
+	}
+
+	.section-subtitle.full-length {
+		max-width: 100%
 	}
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-	.hero-image {
-		height: 300px;
+.section.gray {
+	background-color: #f4f4f4;
+}
+
+.section.call-out {
+	background-color: #2b3137;
+	color: white;
+	background-image: linear-gradient(180deg, #24292e, #2b3137);
+	padding-top: 30px;
+    padding-bottom: 30px;
+
+	.container {
+		.call-out-text {
+			margin-bottom: 0;
+			margin-right: 25px;
+		}
+		
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
 	}
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-	.hero-image {
-		height: 400px;
-	}
+$primary-color:	#5a518e;
+.primary-color {
+	color: $primary-color;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
+// Bootstrap buttons
+.btn {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.btn-primary {
+	background-color: $primary-color;
+	border-color: $primary-color;
+}
+
+.btn-primary:hover {
+	background-color: darken($primary-color, 5%);
+}
+
+.show-xl {
+    display: block;
 	
+	@media (max-width: 1200px) {
+        display: none;
+    }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+.hide-xl {
+	display: none;
 
+    @media (max-width: 1200px) {
+        display: block;
+    }
+}
+
+.join-wrapper {
+    margin-top: 30px;
+}
+
+.side-image {
+    margin-bottom: 0;
+
+    @media (max-width: 991px) {
+        margin-bottom: 40px;
+    }
+}
+
+.single-image {
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+	img {
+		width: 100%;
+	}
+}
+
+.profile-card {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    border-radius: 2px;
+}
+
+// nav
+.rs-nav {
+	background-color: #24292e;
+}
+
+.rs-nav-link {
+	color: rgba(255,255,255,0.75) !important;
+}
+
+.rs-nav-link.active {
+	color: rgb(121, 108, 198) !important;
 }

@@ -1,5 +1,18 @@
-/* Extra small devices (portrait phones, less than 576px) */
-/* Small devices (landscape phones, 576px and up) */
-/* Medium devices (tablets, 768px and up) */
-/* Large devices (desktops, 992px and up) */
-/* Extra large devices (large desktops, 1200px and up) */
+.join-wrapper p {
+  margin-bottom: 1rem; }
+
+.value-prop {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center; }
+  .value-prop h3 {
+    margin-top: 20px; }
+
+.story-section .row > div {
+  padding: 0; }
