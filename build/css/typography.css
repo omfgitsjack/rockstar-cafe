@@ -1,0 +1,7 @@
+body {
+  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Sans', sans-serif; }
+
+@media (max-width: 575px) {
+  h3 {
+    font-size: 1.5rem; } }

@@ -23,16 +23,15 @@ body {
 
 .hero-btn {
   border: 1px solid transparent;
-  border-width: 2px;
-  border-radius: 30px;
-  border-color: #a39ec0;
-  color: #a39ec0;
+  border-width: 1px;
+  border-color: white;
+  color: white;
   background-color: transparent;
-  padding: 10px 12px; }
+  padding: 15px 50px; }
 
 .hero-btn:hover {
-  color: #9b94c7;
-  border-color: #9b94c7;
+  color: #796cc6;
+  border-color: #796cc6;
   text-decoration: none; }
 
 .hero-image {
@@ -153,11 +152,41 @@ body {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
   border-radius: 2px; }
 
+.navbar-toggler {
+  margin: 15px 0px; }
+
 .rs-nav {
-  background-color: #24292e; }
+  background-color: white; }
 
 .rs-nav-link {
-  color: rgba(255, 255, 255, 0.75) !important; }
+  color: black !important;
+  margin: 0px 7px; }
+
+.rs-nav-link:hover {
+  color: #796cc6 !important; }
 
 .rs-nav-link.active {
   color: #796cc6 !important; }
+
+.nav-login {
+  border: 1px solid transparent;
+  border-width: 1px;
+  border-color: #796cc6;
+  color: #796cc6 !important;
+  background-color: transparent; }
+
+.nav-login:hover {
+  color: white !important;
+  background-color: #796cc6; }
+
+@media (max-width: 575px) {
+  nav .container {
+    width: 100%; } }
+
+@media (max-width: 991px) {
+  .nav-login {
+    border-width: 0px;
+    color: black !important; }
+  .nav-login:hover {
+    color: #796cc6 !important;
+    background-color: initial; } }
