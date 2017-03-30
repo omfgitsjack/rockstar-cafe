@@ -5,7 +5,10 @@
     }
     margin: 0 auto;
     flex: 1 2 200px;
-    max-width: 200px;
+    img {
+        width: 150px;
+        max-height: 55px;
+    }
  }
 
  .value {
@@ -21,6 +24,10 @@
     justify-content: space-around;
     margin: 0 auto;
  }
+
+.media-container {
+    max-width: 600px;
+}
 
 .values-container {
     .value {
