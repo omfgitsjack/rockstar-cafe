@@ -1,6 +1,6 @@
 body {
-  font-family: 'Noto Serif', serif;
-  font-family: 'Noto Sans', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
 
 @media (max-width: 575px) {
   h3 {
@@ -28,6 +28,14 @@ body {
   color: white;
   background-color: transparent;
   padding: 15px 50px; }
+
+.hero-title {
+  font-weight: bold;
+  font-size: 33px; }
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: normal; }
 
 .hero-btn:hover {
   color: #796cc6;
@@ -73,15 +81,14 @@ body {
     font-size: 33px; }
   .section p {
     font-size: 20px;
-    font-family: "Noto Serif";
+    font-weight: normal;
     line-height: 2rem;
     letter-spacing: -0.2px;
     word-spacing: .05rem;
     margin-bottom: 2rem; }
   .section .section-subtitle {
     max-width: 800px;
-    margin-top: -0.7rem;
-    font-family: "Noto Sans"; }
+    margin-top: -1rem; }
   .section .section-subtitle.full-length {
     max-width: 100%; }
 
@@ -107,9 +114,6 @@ body {
 
 .primary-color {
   color: #5a518e; }
-
-.btn {
-  font-family: "Noto Sans", sans-serif; }
 
 .btn-primary {
   background-color: #5a518e;
