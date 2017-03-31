@@ -77,10 +77,10 @@ body {
   color: rgba(0, 0, 0, 0.8); }
   .section h1 {
     margin-bottom: 1.3rem;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 33px; }
   .section p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 2rem;
     letter-spacing: -0.2px;
@@ -88,7 +88,8 @@ body {
     margin-bottom: 2rem; }
   .section .section-subtitle {
     max-width: 800px;
-    margin-top: -1rem; }
+    margin-top: -1rem;
+    font-size: 20px; }
   .section .section-subtitle.full-length {
     max-width: 100%; }
 
@@ -121,18 +122,6 @@ body {
 
 .btn-primary:hover {
   background-color: #50487e; }
-
-.show-xl {
-  display: block; }
-  @media (max-width: 1200px) {
-    .show-xl {
-      display: none; } }
-
-.hide-xl {
-  display: none; }
-  @media (max-width: 1200px) {
-    .hide-xl {
-      display: block; } }
 
 .join-wrapper {
   margin-top: 30px; }

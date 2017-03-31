@@ -16,6 +16,9 @@
   justify-content: center;
   max-width: 300px;
   padding: 20px 15px; }
+  .value h5 {
+    font-weight: normal;
+    font-size: 18px; }
 
 .flex-container {
   display: -ms-flexbox;
