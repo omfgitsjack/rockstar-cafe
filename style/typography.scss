@@ -1,0 +1,10 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+h3 {
+	@media (max-width: 575px) {
+		font-size: 1.5rem;
+	}
+}

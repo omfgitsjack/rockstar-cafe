@@ -5,7 +5,10 @@
     }
     margin: 0 auto;
     flex: 1 2 200px;
-    max-width: 200px;
+    img {
+        width: 150px;
+        max-height: 55px;
+    }
  }
 
  .value {
@@ -13,6 +16,11 @@
     justify-content: center;
     max-width: 300px;
     padding: 20px 15px;
+
+    h5 {
+        font-weight: normal;
+        font-size: 18px;
+    }
  }
 
  .flex-container {
@@ -21,6 +29,10 @@
     justify-content: space-around;
     margin: 0 auto;
  }
+
+.media-container {
+    max-width: 600px;
+}
 
 .values-container {
     .value {

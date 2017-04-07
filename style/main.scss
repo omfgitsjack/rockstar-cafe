@@ -1,14 +1,5 @@
+@import "typography.scss";
 
-body {
-	font-family: 'Noto Serif', serif;
-	font-family: 'Noto Sans', sans-serif;
-}
-
-h3 {
-	@media (max-width: 575px) {
-		font-size: 1.5rem;
-	}
-}
 
 .btns-below-hero {
 	margin: 10 auto;
@@ -27,17 +18,24 @@ h3 {
 
 .hero-btn {
 	border: 1px solid transparent;
-	border-width: 2px;
-	border-radius: 30px;
-	border-color: #a39ec0;
-	color: #a39ec0;
+	border-width: 1px;
+	border-color: white;
+	color: white;
 	background-color: transparent;
-	padding: 10px 12px;
+	padding: 15px 50px;
+}
+.hero-title {
+	font-weight: 500;
+	font-size: 33px;
+}
+.hero-subtitle {
+	font-size: 1.2rem;
+	font-weight: normal;
 }
 
 .hero-btn:hover {
-	color: #9b94c7;
-	border-color: #9b94c7;
+	color: rgb(121, 108, 198);
+	border-color: rgb(121, 108, 198);
 	text-decoration: none;
 }
 
@@ -90,13 +88,14 @@ h3 {
 
 	h1 {
 		margin-bottom: 1.3rem;
-		font-weight: bold;
+		font-weight: 500;
 		font-size: 33px;
 	}
 
 	p {
-		font-size: 20px;
-		font-family: "Noto Serif";
+		font-size: 18px;
+		font-weight: normal;
+		// font-family: "Noto Serif";
 		line-height: 2rem;
 		letter-spacing: -0.2px;
 		word-spacing: .05rem;
@@ -105,8 +104,9 @@ h3 {
 
 	.section-subtitle {
 		max-width: 800px;
-		margin-top: -0.7rem;
-		font-family: "Noto Sans";
+		margin-top: -1rem;
+		font-size: 20px;
+		// font-family: "Noto Sans";
 	}
 
 	.section-subtitle.full-length {
@@ -144,7 +144,7 @@ $primary-color:	#5a518e;
 
 // Bootstrap buttons
 .btn {
-	font-family: "Noto Sans", sans-serif;
+	// font-family: "Noto Sans", sans-serif;
 }
 
 .btn-primary {
@@ -154,22 +154,6 @@ $primary-color:	#5a518e;
 
 .btn-primary:hover {
 	background-color: darken($primary-color, 5%);
-}
-
-.show-xl {
-    display: block;
-	
-	@media (max-width: 1200px) {
-        display: none;
-    }
-}
-
-.hide-xl {
-	display: none;
-
-    @media (max-width: 1200px) {
-        display: block;
-    }
 }
 
 .join-wrapper {
@@ -202,14 +186,56 @@ $primary-color:	#5a518e;
 }
 
 // nav
+.navbar-toggler {
+	margin: 15px 0px;
+}
+
+nav.container {
+
+}
 .rs-nav {
-	background-color: #24292e;
+	background-color: white;
 }
 
 .rs-nav-link {
-	color: rgba(255,255,255,0.75) !important;
+	color: black !important;
+	margin: 0px 7px;
+}
+
+.rs-nav-link:hover {
+	color: rgb(121, 108, 198) !important;
 }
 
 .rs-nav-link.active {
 	color: rgb(121, 108, 198) !important;
+}
+
+.nav-login {
+	border: 1px solid transparent;
+	border-width: 1px;
+	border-color: rgb(121, 108, 198);
+	color: rgb(121, 108, 198) !important;
+	background-color: transparent;
+}
+
+.nav-login:hover {
+	color: white !important;
+	background-color: rgb(121, 108, 198);
+}
+
+@media (max-width: 575px) {
+	nav .container {
+		width: 100%
+	}
+}
+@media (max-width: 991px) {
+	.nav-login {
+		border-width: 0px;
+		color: black !important;
+	}
+
+	.nav-login:hover {
+		color: rgb(121, 108, 198) !important;
+		background-color: initial;
+	}
 }

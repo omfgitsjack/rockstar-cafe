@@ -2,10 +2,12 @@
   filter: grayscale(100%);
   margin: 0 auto;
   -ms-flex: 1 2 200px;
-  flex: 1 2 200px;
-  max-width: 200px; }
+  flex: 1 2 200px; }
   .news-img:hover {
     filter: grayscale(0%); }
+  .news-img img {
+    width: 150px;
+    max-height: 55px; }
 
 .value {
   -ms-flex: 1 2 200px;
@@ -14,6 +16,9 @@
   justify-content: center;
   max-width: 300px;
   padding: 20px 15px; }
+  .value h5 {
+    font-weight: normal;
+    font-size: 18px; }
 
 .flex-container {
   display: -ms-flexbox;
@@ -23,6 +28,9 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto; }
+
+.media-container {
+  max-width: 600px; }
 
 .values-container .value h3 {
   margin-top: 20px; }
