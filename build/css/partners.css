@@ -1,0 +1,22 @@
+.feature-list {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px; }
+  .feature-list li {
+    margin-bottom: 5px; }
+
+.partner-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: -20px; }
+  .partner-list .partner {
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
+    margin: 20px; }

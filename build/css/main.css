@@ -1,0 +1,185 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+@media (max-width: 575px) {
+  h3 {
+    font-size: 1.5rem; } }
+
+.btns-below-hero {
+  margin: 10 auto; }
+
+.hero-cta {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .hero-cta .hero-btn {
+    margin: 7.5px; }
+
+.hero-btn {
+  border: 1px solid transparent;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  padding: 15px 50px; }
+
+.hero-title {
+  font-weight: 500;
+  font-size: 33px; }
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: normal; }
+
+.hero-btn:hover {
+  color: #796cc6;
+  border-color: #796cc6;
+  text-decoration: none; }
+
+.hero-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  /* Small devices (landscape phones, 576px and up) */
+  /* Medium devices (tablets, 768px and up) */ }
+  @media (max-width: 575px) {
+    .hero-image {
+      height: 100vh;
+      margin-top: -50px;
+      z-index: -1; } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .hero-image {
+      height: 300px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hero-image {
+      height: 400px; } }
+
+.inner-content {
+  color: white;
+  text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  /*text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);*/
+  /*text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);*/ }
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: rgba(0, 0, 0, 0.8); }
+  .section h1 {
+    margin-bottom: 1.3rem;
+    font-weight: 500;
+    font-size: 33px; }
+  .section p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    word-spacing: .05rem;
+    margin-bottom: 2rem; }
+  .section .section-subtitle {
+    max-width: 800px;
+    margin-top: -1rem;
+    font-size: 20px; }
+  .section .section-subtitle.full-length {
+    max-width: 100%; }
+
+.section.gray {
+  background-color: #f4f4f4; }
+
+.section.call-out {
+  background-color: #2b3137;
+  color: white;
+  background-image: linear-gradient(180deg, #24292e, #2b3137);
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .section.call-out .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .section.call-out .container .call-out-text {
+      margin-bottom: 0;
+      margin-right: 25px; }
+
+.primary-color {
+  color: #5a518e; }
+
+.btn-primary {
+  background-color: #5a518e;
+  border-color: #5a518e; }
+
+.btn-primary:hover {
+  background-color: #50487e; }
+
+.join-wrapper {
+  margin-top: 30px; }
+
+.side-image {
+  margin-bottom: 0; }
+  @media (max-width: 991px) {
+    .side-image {
+      margin-bottom: 40px; } }
+
+.single-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+  .single-image img {
+    width: 100%; }
+
+.profile-card {
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  border-radius: 2px; }
+
+.navbar-toggler {
+  margin: 15px 0px; }
+
+.rs-nav {
+  background-color: white; }
+
+.rs-nav-link {
+  color: black !important;
+  margin: 0px 7px; }
+
+.rs-nav-link:hover {
+  color: #796cc6 !important; }
+
+.rs-nav-link.active {
+  color: #796cc6 !important; }
+
+.nav-login {
+  border: 1px solid transparent;
+  border-width: 1px;
+  border-color: #796cc6;
+  color: #796cc6 !important;
+  background-color: transparent; }
+
+.nav-login:hover {
+  color: white !important;
+  background-color: #796cc6; }
+
+@media (max-width: 575px) {
+  nav .container {
+    width: 100%; } }
+
+@media (max-width: 991px) {
+  .nav-login {
+    border-width: 0px;
+    color: black !important; }
+  .nav-login:hover {
+    color: #796cc6 !important;
+    background-color: initial; } }

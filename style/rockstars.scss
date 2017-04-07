@@ -1,0 +1,57 @@
+.adventure, .rockstars-cards {
+	text-align: center;
+}
+
+.adventure {
+	margin-bottom: 40px;
+
+	.col-6,
+	.col-sm-4,
+	.col-md-2 {
+		padding: 0;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.rockstar-intro-split {
+	margin-top: 40px;
+}
+
+.rockstar-intro-callout {
+	h5 {
+		margin-bottom: 1rem;
+	}
+}
+
+.rockstars-of-canada-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		margin-left: 7.5px;
+		margin-right: 7.5px;
+	}
+}
+
+.rockstars-cards {
+	display: flex;
+	justify-content: center;
+}
+
+.rockstar-card {
+	padding: 0;
+	max-width: 265px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    border-radius: 2px;
+
+	img {
+		width: 100%;
+	}
+}

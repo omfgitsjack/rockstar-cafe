@@ -1,0 +1,25 @@
+
+.feature-list {
+    font-weight: normal;
+    // font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+.partner-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+
+    .partner {
+        flex: 0 0 300px;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+
+.join-wrapper {
+    p {
+        margin-bottom: 1rem;
+    }
+}
+
+.value-prop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h3 {
+        margin-top: 20px;
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 18px;
+    }
+}
+
+.story-section {
+    .row {
+        > div { // targetting the columns
+            padding: 0;
+        }
+    }
+}
