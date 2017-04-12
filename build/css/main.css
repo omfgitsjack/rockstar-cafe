@@ -10,10 +10,13 @@ body {
   margin: 10 auto; }
 
 .hero-cta {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-wrap: wrap;
@@ -99,12 +102,15 @@ body {
 .section.call-out {
   background-color: #2b3137;
   color: white;
+  background-image: -webkit-linear-gradient(top, #24292e, #2b3137);
   background-image: linear-gradient(180deg, #24292e, #2b3137);
   padding-top: 30px;
   padding-bottom: 30px; }
   .section.call-out .container {
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;

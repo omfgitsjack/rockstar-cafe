@@ -2,15 +2,22 @@
   margin-bottom: 1rem; }
 
 .value-prop {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
   .value-prop h3 {
     margin-top: 20px; }
   .value-prop p {
