@@ -1,17 +1,22 @@
 .news-img {
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   margin: 0 auto;
+  -webkit-box-flex: 1;
   -ms-flex: 1 2 200px;
   flex: 1 2 200px; }
   .news-img:hover {
+    -webkit-filter: grayscale(0%);
     filter: grayscale(0%); }
   .news-img img {
     width: 150px;
     max-height: 55px; }
 
 .value {
+  -webkit-box-flex: 1;
   -ms-flex: 1 2 200px;
   flex: 1 2 200px;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   max-width: 300px;
@@ -21,6 +26,7 @@
     font-size: 18px; }
 
 .flex-container {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;

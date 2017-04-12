@@ -19,10 +19,13 @@
   margin-bottom: 1rem; }
 
 .rockstars-of-canada-title {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
   .rockstars-of-canada-title img {
@@ -30,8 +33,10 @@
     margin-right: 7.5px; }
 
 .rockstars-cards {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
 

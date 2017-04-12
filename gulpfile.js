@@ -28,7 +28,7 @@ gulp.task('sass', function() {
     gulp.src('./style/*')
         .pipe(sass())
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            browsers: ["last 2 versions", "> 5%", "Firefox ESR"],
             cascade: false
         }))
         .pipe(gulp.dest(BUILD_ROOT_PATH + 'css/'))
