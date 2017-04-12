@@ -105,7 +105,8 @@ body {
   background-image: -webkit-linear-gradient(top, #24292e, #2b3137);
   background-image: linear-gradient(180deg, #24292e, #2b3137);
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  width: 100%; }
   .section.call-out .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -114,7 +115,9 @@ body {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around; }
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
     .section.call-out .container .call-out-text {
       margin-bottom: 0;
       margin-right: 25px; }
