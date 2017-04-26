@@ -32,6 +32,20 @@
     margin-left: 7.5px;
     margin-right: 7.5px; }
 
+.rockstars-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
 .rockstar-card {
   padding: 0;
   margin: 0 auto;

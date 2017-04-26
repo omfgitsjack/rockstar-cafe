@@ -89,7 +89,7 @@
 	h1 {
 		margin-bottom: 1.3rem;
 		font-weight: 500;
-		font-size: 33px;
+		font-size: 30px;
 	}
 
 	p {
@@ -147,6 +147,13 @@ $primary-color:	#5a518e;
 // Bootstrap buttons
 .btn {
 	// font-family: "Noto Sans", sans-serif;
+}
+
+.btn-lg {
+	font-size: 14px;
+	border-radius: 0;
+	height: 50px;
+	padding-top: 15px;
 }
 
 .btn-primary {
