@@ -1,5 +1,6 @@
 @import "typography.scss";
 
+@import "./footer.scss";
 
 .btns-below-hero {
 	margin: 10 auto;
@@ -150,10 +151,10 @@ $primary-color:	#5a518e;
 }
 
 .btn-lg {
-	font-size: 14px;
+	font-size: 15px;
 	border-radius: 0;
 	height: 50px;
-	padding-top: 15px;
+	padding-top: 16px;
 }
 
 .btn-primary {
