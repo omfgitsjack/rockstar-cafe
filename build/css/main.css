@@ -205,7 +205,8 @@ footer {
   margin: 15px 0px; }
 
 .rs-nav {
-  background-color: white; }
+  background-color: white;
+  height: 70px; }
 
 .rs-nav-link {
   color: black !important;
