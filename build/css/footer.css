@@ -56,3 +56,6 @@ footer {
 #mc_embed_signup .mc-field-group,
 #mc_embed_signup .button {
   width: 90% !important; }
+
+.mc-modal-bg {
+  opacity: 0.6 !important; }
