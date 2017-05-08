@@ -46,9 +46,10 @@ footer {
     margin-bottom: 5px;
 }
 
-
 #mc_embed_signup {
-	background-color: $footer-bg-color !important;
+	background-color: $footer-bg-color;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
 
 #mc_embed_signup form {
