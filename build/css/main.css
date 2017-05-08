@@ -11,7 +11,7 @@ footer {
   border-top-style: solid;
   border-top-width: 1px;
   font-size: 16px;
-  background-color: rgba(121, 108, 198, 0.12);
+  background-color: #efeef8;
   padding-top: 80px;
   padding-bottom: 60px; }
   footer .container {
@@ -46,6 +46,24 @@ footer {
   color: #252525;
   font-weight: bold;
   margin-bottom: 5px; }
+
+#mc_embed_signup {
+  background-color: #efeef8 !important; }
+
+#mc_embed_signup form {
+  padding-left: 0 !important;
+  padding-top: 0 !important; }
+
+#mc_embed_signup .mc-field-group {
+  min-height: 0 !important;
+  padding-bottom: 0 !important; }
+
+#mc_embed_signup .mc-field-group label {
+  display: none !important; }
+
+#mc_embed_signup .mc-field-group,
+#mc_embed_signup .button {
+  width: 90% !important; }
 
 .btns-below-hero {
   margin: 10 auto; }

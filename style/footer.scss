@@ -1,3 +1,4 @@
+$footer-bg-color: rgb(239, 238, 248);
 
 footer {
     border-top-color: rgb(221,221,221);
@@ -6,7 +7,7 @@ footer {
 
     font-size: 16px;
     
-    background-color: rgba(121, 108, 198, 0.12);
+    background-color: $footer-bg-color;
     padding-top: 80px;
     padding-bottom: 60px;
 
@@ -43,4 +44,28 @@ footer {
     color: #252525;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+
+#mc_embed_signup {
+	background-color: $footer-bg-color !important;
+}
+
+#mc_embed_signup form {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+
+#mc_embed_signup .mc-field-group {
+    min-height: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#mc_embed_signup .mc-field-group label {
+    display: none !important;
+}
+
+#mc_embed_signup .mc-field-group,
+#mc_embed_signup .button {
+    width: 90% !important;
 }
