@@ -12,16 +12,11 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px; }
   .value-prop h3 {
     margin-top: 20px; }
-  .value-prop p {
-    font-size: 18px; }
 
 .story-section .row > div {
   padding: 0; }
