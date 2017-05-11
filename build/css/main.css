@@ -9,9 +9,11 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
-@media (max-width: 575px) {
-  h3 {
-    font-size: 1.5rem; } }
+h3 {
+  font-size: 24px; }
+  @media (max-width: 575px) {
+    h3 {
+      font-size: 1.5rem; } }
 
 .btn-hollow {
   color: #5a518e;
@@ -166,7 +168,6 @@ footer {
     font-weight: 400;
     font-size: 25px; }
   .section p {
-    font-size: 16px;
     font-weight: 300;
     line-height: 2rem;
     letter-spacing: -0.2px;
