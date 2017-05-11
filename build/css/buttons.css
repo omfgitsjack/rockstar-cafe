@@ -1,0 +1,9 @@
+.btn-hollow {
+  color: #5a518e;
+  background-color: white;
+  border-color: #5a518e;
+  border-width: 1px; }
+
+.btn-hollow:hover {
+  background-color: #5a518e;
+  color: white; }

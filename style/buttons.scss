@@ -1,0 +1,14 @@
+
+$primary-color: #5a518e;
+
+.btn-hollow {
+    color: $primary-color;
+    background-color: white;
+    border-color: $primary-color;
+    border-width: 1px;
+}
+
+.btn-hollow:hover {
+    background-color: $primary-color;
+    color: white;
+}

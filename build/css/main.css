@@ -12,6 +12,16 @@ h1, h2, h3, h4, h5, h6 {
   h3 {
     font-size: 1.5rem; } }
 
+.btn-hollow {
+  color: #5a518e;
+  background-color: white;
+  border-color: #5a518e;
+  border-width: 1px; }
+
+.btn-hollow:hover {
+  background-color: #5a518e;
+  color: white; }
+
 footer {
   border-top-color: #dddddd;
   border-top-style: solid;
