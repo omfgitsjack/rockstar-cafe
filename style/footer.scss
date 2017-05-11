@@ -21,6 +21,11 @@ footer {
         color: #aaa;
         font-size: 11px;
     }
+
+    i {
+        // margin-right: 15px;
+        width: 27.5px;
+    }
 }
 
 .footer-content {
@@ -46,6 +51,7 @@ footer {
     margin-bottom: 5px;
 }
 
+// Mailchimp related styling
 #mc_embed_signup {
 	background-color: $footer-bg-color;
     clear: left;

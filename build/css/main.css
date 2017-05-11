@@ -40,6 +40,8 @@ footer {
     padding-top: 20px;
     color: #aaa;
     font-size: 11px; }
+  footer i {
+    width: 27.5px; }
 
 .footer-content {
   min-width: 200px;
