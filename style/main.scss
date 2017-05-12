@@ -250,3 +250,17 @@ nav.container {
 		background-color: initial;
 	}
 }
+
+// Navbar
+.navbar-toggler {
+	margin-top: 6.5px;
+}
+
+.nav-container {
+	background-color: white;
+	z-index: 999;
+}
+
+.navbar-nav {
+	padding: 15px;
+}

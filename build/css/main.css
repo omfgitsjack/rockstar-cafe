@@ -283,3 +283,13 @@ footer {
   .nav-login:hover {
     color: #796cc6 !important;
     background-color: initial; } }
+
+.navbar-toggler {
+  margin-top: 6.5px; }
+
+.nav-container {
+  background-color: white;
+  z-index: 999; }
+
+.navbar-nav {
+  padding: 15px; }
