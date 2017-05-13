@@ -4,6 +4,9 @@
 
 @import "./footer.scss";
 
+$primary-purple: #5a518e;
+$secondary-purple: rgb(121, 108, 198);
+
 .btns-below-hero {
 	margin: 10 auto;
 }
@@ -37,8 +40,9 @@
 }
 
 .hero-btn:hover {
-	color: rgb(121, 108, 198);
-	border-color: rgb(121, 108, 198);
+	color: white;
+	border-color: $primary-purple;
+	background-color: $primary-purple;
 	text-decoration: none;
 }
 
@@ -164,7 +168,8 @@ $primary-color:	#5a518e;
 }
 
 .btn-primary:hover {
-	background-color: darken($primary-color, 5%);
+	background-color: lighten($primary-color, 15%);
+	border-color: lighten($primary-color, 15%);
 }
 
 .join-wrapper {
@@ -215,24 +220,24 @@ nav.container {
 }
 
 .rs-nav-link:hover {
-	color: rgb(121, 108, 198) !important;
+	color: $secondary-purple !important;
 }
 
 .rs-nav-link.active {
-	color: rgb(121, 108, 198) !important;
+	color: $secondary-purple !important;
 }
 
 .nav-login {
 	border: 1px solid transparent;
 	border-width: 1px;
-	border-color: rgb(121, 108, 198);
-	color: rgb(121, 108, 198) !important;
+	border-color: $secondary-purple;
+	color: $secondary-purple !important;
 	background-color: transparent;
 }
 
 .nav-login:hover {
 	color: white !important;
-	background-color: rgb(121, 108, 198);
+	background-color: $secondary-purple;
 }
 
 @media (max-width: 575px) {
@@ -247,7 +252,7 @@ nav.container {
 	}
 
 	.nav-login:hover {
-		color: rgb(121, 108, 198) !important;
+		color: $secondary-purple !important;
 		background-color: initial;
 	}
 }

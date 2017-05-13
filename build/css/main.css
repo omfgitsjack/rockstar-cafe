@@ -129,8 +129,9 @@ footer {
   font-weight: normal; }
 
 .hero-btn:hover {
-  color: #796cc6;
-  border-color: #796cc6;
+  color: white;
+  border-color: #5a518e;
+  background-color: #5a518e;
   text-decoration: none; }
 
 .hero-image {
@@ -222,7 +223,8 @@ footer {
   border-color: #5a518e; }
 
 .btn-primary:hover {
-  background-color: #50487e; }
+  background-color: #8179b3;
+  border-color: #8179b3; }
 
 .join-wrapper {
   margin-top: 30px; }
