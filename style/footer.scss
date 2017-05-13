@@ -65,7 +65,11 @@ footer {
 
 #mc_embed_signup .mc-field-group {
     min-height: 0 !important;
-    padding-bottom: 0 !important;
+    padding-bottom: 10px !important;
+}
+
+#mc-embedded-subscribe {
+    background-color: #5a518e !important;
 }
 
 #mc_embed_signup .mc-field-group label {
