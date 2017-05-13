@@ -251,13 +251,22 @@ footer {
 .navbar-toggler {
   margin: 15px 0px; }
 
+.navbar-toggler {
+  margin-top: 5.5px !important; }
+
+.nav-container,
 .rs-nav {
   background-color: white;
-  height: 70px; }
+  height: 65.05px; }
 
 .rs-nav-link {
-  color: black !important;
-  margin: 0px 7px; }
+  color: rgba(0, 0, 0, 0.7) !important;
+  margin: 0px 7px;
+  font-size: 12.5px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .7px; }
 
 .rs-nav-link:hover {
   color: #796cc6 !important; }
@@ -270,7 +279,8 @@ footer {
   border-width: 1px;
   border-color: #796cc6;
   color: #796cc6 !important;
-  background-color: transparent; }
+  background-color: transparent;
+  padding-top: 8.8px; }
 
 .nav-login:hover {
   color: white !important;
@@ -296,7 +306,8 @@ footer {
   z-index: 999; }
 
 .navbar-nav {
-  padding: 15px; }
+  padding: 15px;
+  background-color: white; }
 
 /* Variables */
 :root {

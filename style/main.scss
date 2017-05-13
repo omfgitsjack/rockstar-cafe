@@ -145,9 +145,8 @@ $secondary-purple: rgb(121, 108, 198);
 	}
 }
 
-$primary-color:	#5a518e;
 .primary-color {
-	color: $primary-color;
+	color: $primary-purple;
 }
 
 // Bootstrap buttons
@@ -163,13 +162,13 @@ $primary-color:	#5a518e;
 }
 
 .btn-primary {
-	background-color: $primary-color;
-	border-color: $primary-color;
+	background-color: $primary-purple;
+	border-color: $primary-purple;
 }
 
 .btn-primary:hover {
-	background-color: lighten($primary-color, 15%);
-	border-color: lighten($primary-color, 15%);
+	background-color: lighten($primary-purple, 15%);
+	border-color: lighten($primary-purple, 15%);
 }
 
 .join-wrapper {
@@ -206,17 +205,24 @@ $primary-color:	#5a518e;
 	margin: 15px 0px;
 }
 
-nav.container {
-
+.navbar-toggler {
+	margin-top: 5.5px !important;
 }
+
+.nav-container, 
 .rs-nav {
 	background-color: white;
-	height: 70px;
+	height: 65.05px;
 }
 
 .rs-nav-link {
-	color: black !important;
+	color: rgba(0, 0, 0, 0.7) !important;
 	margin: 0px 7px;
+	font-size: 12.5px;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .7px;
 }
 
 .rs-nav-link:hover {
@@ -233,6 +239,7 @@ nav.container {
 	border-color: $secondary-purple;
 	color: $secondary-purple !important;
 	background-color: transparent;
+	padding-top: 8.8px;
 }
 
 .nav-login:hover {
@@ -269,6 +276,7 @@ nav.container {
 
 .navbar-nav {
 	padding: 15px;
+	background-color: white;
 }
 
 // Tachyeon rules!
