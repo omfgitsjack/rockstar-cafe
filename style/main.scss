@@ -1,3 +1,4 @@
+
 @import "typography.scss";
 @import "buttons.scss";
 
@@ -100,7 +101,7 @@
 		line-height: 2rem;
 		letter-spacing: -0.2px;
 		word-spacing: .05rem;
-		margin-bottom: 2rem;
+		// margin-bottom: 2rem;
 	}
 
 	.section-subtitle {
@@ -264,3 +265,6 @@ nav.container {
 .navbar-nav {
 	padding: 15px;
 }
+
+// Tachyeon rules!
+@import "_spacing.scss";
