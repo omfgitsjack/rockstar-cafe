@@ -31,3 +31,6 @@
 
 .story-section .row > div {
   padding: 0; }
+
+.learn-more {
+  margin-top: -5px !important; }
