@@ -46,6 +46,48 @@
   -ms-flex-direction: row;
   flex-direction: row; }
 
+.rs-profile {
+  font-family: "Noto Sans";
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  background-color: white;
+  border-radius: 2px;
+  max-width: 265px;
+  width: 100%; }
+  .rs-profile a {
+    display: block;
+    text-decoration: none;
+    color: black; }
+  .rs-profile .headshot {
+    max-height: 310px;
+    overflow-y: hidden; }
+  .rs-profile img {
+    width: 100%;
+    height: auto; }
+  .rs-profile .rs-description {
+    display: block;
+    padding: 10px 10px;
+    padding-bottom: 13px; }
+  .rs-profile .rs-name {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8); }
+  .rs-profile .rs-role {
+    font-size: 16px;
+    color: #796cc6;
+    margin-top: -5px;
+    margin-bottom: -5px; }
+  .rs-profile .rs-company {
+    font-size: 16px;
+    color: #796cc6; }
+  .rs-profile a:hover img {
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%); }
+
 .rockstar-card {
   font-family: "Noto Sans";
   padding: 0;
