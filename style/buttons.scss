@@ -1,14 +1,62 @@
 
-$primary-color: #5a518e;
+@import "./_colors.scss";
 
+// Bootstrap buttons
+.btn {
+	// font-family: "Noto Sans", sans-serif;
+	border-radius: 2px;
+}
+
+.btn-lg {
+	font-size: 14px;
+	// height: 50px;
+	padding-top: 13.5px;
+	
+    text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+}
+
+.btn-primary {
+	background-color: $primary-purple;
+	border-color: $primary-purple;
+}
+
+.btn-primary:hover {
+	background-color: lighten($primary-purple, 15%);
+	border-color: lighten($primary-purple, 15%);
+}
+
+// Hollow Buttons
 .btn-hollow {
-    color: $primary-color;
+    color: $primary-purple;
     background-color: white;
-    border-color: $primary-color;
-    border-width: 1px;
+    // border-color: $primary-purple;
+    // border-width: 1px;
 }
 
 .btn-hollow:hover {
-    background-color: $primary-color;
+    background-color: $primary-purple;
     color: white;
+}
+
+// Hero Buttons
+.hero-btn {
+	border: 1px solid transparent;
+	border-width: 1px;
+	border-color: white;
+    border-radius: 2px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.20);
+	padding: 15px 30px;
+    
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.hero-btn:hover {
+	color: white;
+	border-color: $primary-purple;
+	background-color: $primary-purple;
+	text-decoration: none;
 }

@@ -1,11 +1,9 @@
 
+@import "./_colors.scss";
 @import "typography.scss";
 @import "buttons.scss";
 
 @import "./footer.scss";
-
-$primary-purple: #5a518e;
-$secondary-purple: rgb(121, 108, 198);
 
 .btns-below-hero {
 	margin: 10 auto;
@@ -22,29 +20,20 @@ $secondary-purple: rgb(121, 108, 198);
 	}
 }
 
-.hero-btn {
-	border: 1px solid transparent;
-	border-width: 1px;
-	border-color: white;
-	color: white;
-	background-color: transparent;
-	padding: 15px 50px;
-}
+
 .hero-title {
-	font-weight: 500;
+	// font-weight: 500;
 	font-size: 33px;
+	font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-style: normal;
 }
 .hero-subtitle {
 	font-size: 1.2rem;
 	font-weight: normal;
 }
 
-.hero-btn:hover {
-	color: white;
-	border-color: $primary-purple;
-	background-color: $primary-purple;
-	text-decoration: none;
-}
+
 
 .hero-image {
 	background-position: center center;
@@ -118,6 +107,11 @@ $secondary-purple: rgb(121, 108, 198);
 	.section-subtitle.full-length {
 		max-width: 100%
 	}
+
+	@media (max-width: 650px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
 }
 
 .section.gray {
@@ -147,28 +141,6 @@ $secondary-purple: rgb(121, 108, 198);
 
 .primary-color {
 	color: $primary-purple;
-}
-
-// Bootstrap buttons
-.btn {
-	// font-family: "Noto Sans", sans-serif;
-}
-
-.btn-lg {
-	font-size: 15px;
-	border-radius: 0;
-	height: 50px;
-	padding-top: 16px;
-}
-
-.btn-primary {
-	background-color: $primary-purple;
-	border-color: $primary-purple;
-}
-
-.btn-primary:hover {
-	background-color: lighten($primary-purple, 15%);
-	border-color: lighten($primary-purple, 15%);
 }
 
 .join-wrapper {
@@ -213,6 +185,7 @@ $secondary-purple: rgb(121, 108, 198);
 .rs-nav {
 	background-color: white;
 	height: 65.05px;
+	font-weight: 400;
 }
 
 .rs-nav-link {

@@ -30,7 +30,7 @@
   border-color: white;
   border-radius: 2px;
   color: white;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 15px 30px;
   text-transform: uppercase;
   letter-spacing: 2px; }
