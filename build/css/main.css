@@ -26,19 +26,19 @@ h3 {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); }
 
 .btn-primary {
-  background-color: #5a518e;
-  border-color: #5a518e; }
+  background-color: #594F8B;
+  border-color: #594F8B; }
 
 .btn-primary:hover {
-  background-color: #8179b3;
-  border-color: #8179b3; }
+  background-color: #7f76b1;
+  border-color: #7f76b1; }
 
 .btn-hollow {
-  color: #5a518e;
+  color: #594F8B;
   background-color: white; }
 
 .btn-hollow:hover {
-  background-color: #5a518e;
+  background-color: #594F8B;
   color: white; }
 
 .hero-btn {
@@ -54,8 +54,8 @@ h3 {
 
 .hero-btn:hover {
   color: white;
-  border-color: #5a518e;
-  background-color: #5a518e;
+  border-color: #594F8B;
+  background-color: #594F8B;
   text-decoration: none; }
 
 footer {
@@ -234,7 +234,7 @@ footer {
       margin-right: 25px; }
 
 .primary-color {
-  color: #5a518e; }
+  color: #594F8B; }
 
 .join-wrapper {
   margin-top: 30px; }
@@ -280,22 +280,22 @@ footer {
   letter-spacing: .7px; }
 
 .rs-nav-link:hover {
-  color: #796cc6 !important; }
+  color: #594F8B !important; }
 
 .rs-nav-link.active {
-  color: #796cc6 !important; }
+  color: #594F8B !important; }
 
 .nav-login {
   border: 1px solid transparent;
   border-width: 1px;
-  border-color: #796cc6;
-  color: #796cc6 !important;
+  border-color: #594F8B;
+  color: #594F8B !important;
   background-color: transparent;
   padding-top: 8.8px; }
 
 .nav-login:hover {
   color: white !important;
-  background-color: #796cc6; }
+  background-color: #594F8B; }
 
 @media (max-width: 575px) {
   nav .container {

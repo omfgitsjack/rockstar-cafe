@@ -199,25 +199,25 @@
 }
 
 .rs-nav-link:hover {
-	color: $secondary-purple !important;
+	color: $primary-purple !important;
 }
 
 .rs-nav-link.active {
-	color: $secondary-purple !important;
+	color: $primary-purple !important;
 }
 
 .nav-login {
 	border: 1px solid transparent;
 	border-width: 1px;
-	border-color: $secondary-purple;
-	color: $secondary-purple !important;
+	border-color: $primary-purple;
+	color: $primary-purple !important;
 	background-color: transparent;
 	padding-top: 8.8px;
 }
 
 .nav-login:hover {
 	color: white !important;
-	background-color: $secondary-purple;
+	background-color: $primary-purple;
 }
 
 @media (max-width: 575px) {
