@@ -15,15 +15,48 @@ h3 {
     h3 {
       font-size: 1.5rem; } }
 
+.btn {
+  border-radius: 2px; }
+
+.btn-lg {
+  font-size: 14px;
+  padding-top: 13.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); }
+
+.btn-primary {
+  background-color: #5a518e;
+  border-color: #5a518e; }
+
+.btn-primary:hover {
+  background-color: #8179b3;
+  border-color: #8179b3; }
+
 .btn-hollow {
   color: #5a518e;
-  background-color: white;
-  border-color: #5a518e;
-  border-width: 1px; }
+  background-color: white; }
 
 .btn-hollow:hover {
   background-color: #5a518e;
   color: white; }
+
+.hero-btn {
+  border: 1px solid transparent;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
+  color: white;
+  background-color: transparent;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.hero-btn:hover {
+  color: white;
+  border-color: #5a518e;
+  background-color: #5a518e;
+  text-decoration: none; }
 
 footer {
   border-top-color: #dddddd;
@@ -112,14 +145,6 @@ footer {
   .hero-cta .hero-btn {
     margin: 7.5px; }
 
-.hero-btn {
-  border: 1px solid transparent;
-  border-width: 1px;
-  border-color: white;
-  color: white;
-  background-color: transparent;
-  padding: 15px 50px; }
-
 .hero-title {
   font-weight: 500;
   font-size: 33px; }
@@ -127,12 +152,6 @@ footer {
 .hero-subtitle {
   font-size: 1.2rem;
   font-weight: normal; }
-
-.hero-btn:hover {
-  color: white;
-  border-color: #5a518e;
-  background-color: #5a518e;
-  text-decoration: none; }
 
 .hero-image {
   background-position: center center;
@@ -182,6 +201,10 @@ footer {
     font-size: 20px; }
   .section .section-subtitle.full-length {
     max-width: 100%; }
+  @media (max-width: 650px) {
+    .section {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
 
 .section.gray {
   background-color: #f4f4f4; }
@@ -211,20 +234,6 @@ footer {
 
 .primary-color {
   color: #5a518e; }
-
-.btn-lg {
-  font-size: 15px;
-  border-radius: 0;
-  height: 50px;
-  padding-top: 16px; }
-
-.btn-primary {
-  background-color: #5a518e;
-  border-color: #5a518e; }
-
-.btn-primary:hover {
-  background-color: #8179b3;
-  border-color: #8179b3; }
 
 .join-wrapper {
   margin-top: 30px; }
@@ -257,7 +266,8 @@ footer {
 .nav-container,
 .rs-nav {
   background-color: white;
-  height: 65.05px; }
+  height: 65.05px;
+  font-weight: 600; }
 
 .rs-nav-link {
   color: rgba(0, 0, 0, 0.7) !important;

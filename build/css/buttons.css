@@ -1,9 +1,42 @@
+.btn {
+  border-radius: 2px; }
+
+.btn-lg {
+  font-size: 14px;
+  padding-top: 13.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); }
+
+.btn-primary {
+  background-color: #5a518e;
+  border-color: #5a518e; }
+
+.btn-primary:hover {
+  background-color: #8179b3;
+  border-color: #8179b3; }
+
 .btn-hollow {
   color: #5a518e;
-  background-color: white;
-  border-color: #5a518e;
-  border-width: 1px; }
+  background-color: white; }
 
 .btn-hollow:hover {
   background-color: #5a518e;
   color: white; }
+
+.hero-btn {
+  border: 1px solid transparent;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
+  color: white;
+  background-color: transparent;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.hero-btn:hover {
+  color: white;
+  border-color: #5a518e;
+  background-color: #5a518e;
+  text-decoration: none; }
