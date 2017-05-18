@@ -47,7 +47,7 @@ h3 {
   border-color: white;
   border-radius: 2px;
   color: white;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 15px 30px;
   text-transform: uppercase;
   letter-spacing: 2px; }
@@ -146,8 +146,10 @@ footer {
     margin: 7.5px; }
 
 .hero-title {
-  font-weight: 500;
-  font-size: 33px; }
+  font-size: 33px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-style: normal; }
 
 .hero-subtitle {
   font-size: 1.2rem;
@@ -267,7 +269,7 @@ footer {
 .rs-nav {
   background-color: white;
   height: 65.05px;
-  font-weight: 600; }
+  font-weight: 400; }
 
 .rs-nav-link {
   color: rgba(0, 0, 0, 0.7) !important;
