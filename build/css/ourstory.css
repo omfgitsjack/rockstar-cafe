@@ -1,3 +1,93 @@
+.adventure, .rockstars-cards {
+  text-align: center; }
+
+.adventure {
+  margin-bottom: 40px; }
+  .adventure .col-6,
+  .adventure .col-sm-4,
+  .adventure .col-md-2 {
+    padding: 0; }
+    .adventure .col-6 img,
+    .adventure .col-sm-4 img,
+    .adventure .col-md-2 img {
+      width: 100%; }
+
+.rockstar-intro-split {
+  margin-top: 40px; }
+
+.rockstar-intro-callout h5 {
+  margin-bottom: 1rem; }
+
+.rockstars-of-canada-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .rockstars-of-canada-title img {
+    margin-left: 7.5px;
+    margin-right: 7.5px; }
+
+.rockstars-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.rs-profile {
+  font-family: "Noto Sans";
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  background-color: white;
+  border-radius: 2px;
+  max-width: 265px;
+  width: 100%; }
+  .rs-profile a {
+    display: block;
+    text-decoration: none;
+    color: black; }
+  .rs-profile .headshot {
+    max-height: 310px;
+    overflow-y: hidden; }
+  .rs-profile img {
+    width: 100%;
+    height: auto; }
+  .rs-profile .rs-description {
+    display: block;
+    padding: 10px 10px;
+    padding-bottom: 13px; }
+  .rs-profile .rs-name {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8); }
+  .rs-profile .rs-role {
+    font-size: 16px;
+    color: #796cc6;
+    margin-top: -5px;
+    margin-bottom: -5px; }
+  .rs-profile .rs-company {
+    font-size: 16px;
+    color: #796cc6; }
+  .rs-profile a:hover img {
+    -webkit-filter: brightness(110%);
+    filter: brightness(110%); }
+
 .news-img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -15,6 +105,14 @@
     max-height: 55px;
     margin-left: 10px;
     margin-right: 10px; }
+
+.row-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .value {
   -webkit-box-flex: 1;
