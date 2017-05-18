@@ -53,9 +53,9 @@ h3 {
   letter-spacing: 2px; }
 
 .hero-btn:hover {
-  color: white;
-  border-color: #594F8B;
-  background-color: #594F8B;
+  color: #594F8B;
+  border-color: white;
+  background-color: white;
   text-decoration: none; }
 
 footer {
