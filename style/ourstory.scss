@@ -5,9 +5,16 @@
     }
     margin: 0 auto;
     flex: 1 2 200px;
+
+    // width: 230px;
+    height: 150px;
+    padding: 10px;
+
     img {
-        width: 150px;
+        width: auto;
         max-height: 55px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
  }
 
@@ -31,7 +38,7 @@
  }
 
 .media-container {
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 .values-container {
