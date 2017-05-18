@@ -55,7 +55,7 @@
 		// Special treatment.
 		height: 100vh;
 		margin-top: -50px;
-		z-index: -1;
+		z-index: 0;
 	}
 
 	/* Small devices (landscape phones, 576px and up) */
@@ -186,6 +186,7 @@
 	background-color: white;
 	height: 65.05px;
 	font-weight: 400;
+	z-index: 1;
 }
 
 .rs-nav-link {

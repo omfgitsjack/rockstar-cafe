@@ -168,7 +168,7 @@ footer {
     .hero-image {
       height: 100vh;
       margin-top: -50px;
-      z-index: -1; } }
+      z-index: 0; } }
   @media (min-width: 576px) and (max-width: 767px) {
     .hero-image {
       height: 300px; } }
@@ -268,7 +268,8 @@ footer {
 .rs-nav {
   background-color: white;
   height: 65.05px;
-  font-weight: 400; }
+  font-weight: 400;
+  z-index: 1; }
 
 .rs-nav-link {
   color: rgba(0, 0, 0, 0.7) !important;
